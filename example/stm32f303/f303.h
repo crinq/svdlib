@@ -1,4 +1,4 @@
-/* header created by json2c.py from f303.json */
+/* header created by json2c.py from example/stm32f303/f303.json */
 #include <stdint.h>
 
 #define CPU STM32F303
@@ -16,6 +16,7 @@ typedef struct{
   * address: 0x40000000
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM2_CR1_t {
@@ -37,6 +38,7 @@ typedef struct{
   * address: 0x40000004
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM2_CR2_t {
@@ -52,6 +54,7 @@ typedef struct{
   * address: 0x40000008
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM2_SMCR_t {
@@ -72,6 +75,7 @@ typedef struct{
   * address: 0x4000000C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM2_DIER_t {
@@ -98,6 +102,7 @@ typedef struct{
   * address: 0x40000010
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM2_SR_t {
@@ -121,6 +126,7 @@ typedef struct{
   * address: 0x40000014
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct TIM2_EGR_t {
@@ -139,6 +145,7 @@ typedef struct{
   * address: 0x40000018
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM2_CCMR1_Output_t {
@@ -163,6 +170,7 @@ typedef struct{
   * address: 0x40000018
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM2_CCMR1_Input_t {
@@ -180,6 +188,7 @@ typedef struct{
   * address: 0x4000001C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM2_CCMR2_Output_t {
@@ -204,6 +213,7 @@ typedef struct{
   * address: 0x4000001C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM2_CCMR2_Input_t {
@@ -221,6 +231,7 @@ typedef struct{
   * address: 0x40000020
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM2_CCER_t {
@@ -248,6 +259,7 @@ typedef struct{
   * address: 0x40000024
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM2_CNT_t {
@@ -262,6 +274,7 @@ typedef struct{
   * address: 0x40000028
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM2_PSC_t {
@@ -274,6 +287,7 @@ typedef struct{
   * address: 0x4000002C
   * offset: 0x2C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM2_ARR_t {
@@ -287,6 +301,7 @@ typedef struct{
   * address: 0x40000034
   * offset: 0x34
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM2_CCR1_t {
@@ -300,6 +315,7 @@ typedef struct{
   * address: 0x40000038
   * offset: 0x38
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM2_CCR2_t {
@@ -313,6 +329,7 @@ typedef struct{
   * address: 0x4000003C
   * offset: 0x3C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM2_CCR3_t {
@@ -326,6 +343,7 @@ typedef struct{
   * address: 0x40000040
   * offset: 0x40
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM2_CCR4_t {
@@ -339,6 +357,7 @@ typedef struct{
   * address: 0x40000048
   * offset: 0x48
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM2_DCR_t {
@@ -353,6 +372,7 @@ typedef struct{
   * address: 0x4000004C
   * offset: 0x4C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM2_DMAR_t {
@@ -375,6 +395,7 @@ typedef struct{
   * address: 0x40000400
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM3_CR1_t {
@@ -396,6 +417,7 @@ typedef struct{
   * address: 0x40000404
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM3_CR2_t {
@@ -411,6 +433,7 @@ typedef struct{
   * address: 0x40000408
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM3_SMCR_t {
@@ -431,6 +454,7 @@ typedef struct{
   * address: 0x4000040C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM3_DIER_t {
@@ -457,6 +481,7 @@ typedef struct{
   * address: 0x40000410
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM3_SR_t {
@@ -480,6 +505,7 @@ typedef struct{
   * address: 0x40000414
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct TIM3_EGR_t {
@@ -498,6 +524,7 @@ typedef struct{
   * address: 0x40000418
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM3_CCMR1_Output_t {
@@ -522,6 +549,7 @@ typedef struct{
   * address: 0x40000418
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM3_CCMR1_Input_t {
@@ -539,6 +567,7 @@ typedef struct{
   * address: 0x4000041C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM3_CCMR2_Output_t {
@@ -563,6 +592,7 @@ typedef struct{
   * address: 0x4000041C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM3_CCMR2_Input_t {
@@ -580,6 +610,7 @@ typedef struct{
   * address: 0x40000420
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM3_CCER_t {
@@ -607,6 +638,7 @@ typedef struct{
   * address: 0x40000424
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM3_CNT_t {
@@ -621,6 +653,7 @@ typedef struct{
   * address: 0x40000428
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM3_PSC_t {
@@ -633,6 +666,7 @@ typedef struct{
   * address: 0x4000042C
   * offset: 0x2C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM3_ARR_t {
@@ -646,6 +680,7 @@ typedef struct{
   * address: 0x40000434
   * offset: 0x34
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM3_CCR1_t {
@@ -659,6 +694,7 @@ typedef struct{
   * address: 0x40000438
   * offset: 0x38
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM3_CCR2_t {
@@ -672,6 +708,7 @@ typedef struct{
   * address: 0x4000043C
   * offset: 0x3C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM3_CCR3_t {
@@ -685,6 +722,7 @@ typedef struct{
   * address: 0x40000440
   * offset: 0x40
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM3_CCR4_t {
@@ -698,6 +736,7 @@ typedef struct{
   * address: 0x40000448
   * offset: 0x48
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM3_DCR_t {
@@ -712,6 +751,7 @@ typedef struct{
   * address: 0x4000044C
   * offset: 0x4C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM3_DMAR_t {
@@ -734,6 +774,7 @@ typedef struct{
   * address: 0x40000800
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM4_CR1_t {
@@ -755,6 +796,7 @@ typedef struct{
   * address: 0x40000804
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM4_CR2_t {
@@ -770,6 +812,7 @@ typedef struct{
   * address: 0x40000808
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM4_SMCR_t {
@@ -790,6 +833,7 @@ typedef struct{
   * address: 0x4000080C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM4_DIER_t {
@@ -816,6 +860,7 @@ typedef struct{
   * address: 0x40000810
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM4_SR_t {
@@ -839,6 +884,7 @@ typedef struct{
   * address: 0x40000814
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct TIM4_EGR_t {
@@ -857,6 +903,7 @@ typedef struct{
   * address: 0x40000818
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM4_CCMR1_Output_t {
@@ -881,6 +928,7 @@ typedef struct{
   * address: 0x40000818
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM4_CCMR1_Input_t {
@@ -898,6 +946,7 @@ typedef struct{
   * address: 0x4000081C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM4_CCMR2_Output_t {
@@ -922,6 +971,7 @@ typedef struct{
   * address: 0x4000081C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM4_CCMR2_Input_t {
@@ -939,6 +989,7 @@ typedef struct{
   * address: 0x40000820
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM4_CCER_t {
@@ -966,6 +1017,7 @@ typedef struct{
   * address: 0x40000824
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM4_CNT_t {
@@ -980,6 +1032,7 @@ typedef struct{
   * address: 0x40000828
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM4_PSC_t {
@@ -992,6 +1045,7 @@ typedef struct{
   * address: 0x4000082C
   * offset: 0x2C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM4_ARR_t {
@@ -1005,6 +1059,7 @@ typedef struct{
   * address: 0x40000834
   * offset: 0x34
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM4_CCR1_t {
@@ -1018,6 +1073,7 @@ typedef struct{
   * address: 0x40000838
   * offset: 0x38
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM4_CCR2_t {
@@ -1031,6 +1087,7 @@ typedef struct{
   * address: 0x4000083C
   * offset: 0x3C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM4_CCR3_t {
@@ -1044,6 +1101,7 @@ typedef struct{
   * address: 0x40000840
   * offset: 0x40
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM4_CCR4_t {
@@ -1057,6 +1115,7 @@ typedef struct{
   * address: 0x40000848
   * offset: 0x48
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM4_DCR_t {
@@ -1071,6 +1130,7 @@ typedef struct{
   * address: 0x4000084C
   * offset: 0x4C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM4_DMAR_t {
@@ -1093,6 +1153,7 @@ typedef struct{
   * address: 0x40001000
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM6_CR1_t {
@@ -1112,6 +1173,7 @@ typedef struct{
   * address: 0x40001004
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM6_CR2_t {
@@ -1125,6 +1187,7 @@ typedef struct{
   * address: 0x4000100C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM6_DIER_t {
@@ -1139,6 +1202,7 @@ typedef struct{
   * address: 0x40001010
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM6_SR_t {
@@ -1151,6 +1215,7 @@ typedef struct{
   * address: 0x40001014
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct TIM6_EGR_t {
@@ -1163,6 +1228,7 @@ typedef struct{
   * address: 0x40001024
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct TIM6_CNT_t {
@@ -1177,6 +1243,7 @@ typedef struct{
   * address: 0x40001028
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM6_PSC_t {
@@ -1189,6 +1256,7 @@ typedef struct{
   * address: 0x4000102C
   * offset: 0x2C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM6_ARR_t {
@@ -1211,6 +1279,7 @@ typedef struct{
   * address: 0x40001400
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM7_CR1_t {
@@ -1230,6 +1299,7 @@ typedef struct{
   * address: 0x40001404
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM7_CR2_t {
@@ -1243,6 +1313,7 @@ typedef struct{
   * address: 0x4000140C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM7_DIER_t {
@@ -1257,6 +1328,7 @@ typedef struct{
   * address: 0x40001410
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM7_SR_t {
@@ -1269,6 +1341,7 @@ typedef struct{
   * address: 0x40001414
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct TIM7_EGR_t {
@@ -1281,6 +1354,7 @@ typedef struct{
   * address: 0x40001424
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct TIM7_CNT_t {
@@ -1295,6 +1369,7 @@ typedef struct{
   * address: 0x40001428
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM7_PSC_t {
@@ -1307,6 +1382,7 @@ typedef struct{
   * address: 0x4000142C
   * offset: 0x2C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM7_ARR_t {
@@ -1329,6 +1405,7 @@ typedef struct{
   * address: 0x40002800
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_TR_t {
@@ -1349,6 +1426,7 @@ typedef struct{
   * address: 0x40002804
   * offset: 0x4
   * reset value: 0x00002101
+  * size: 0x20
   * access: read-write
   */
   struct RTC_DR_t {
@@ -1368,6 +1446,7 @@ typedef struct{
   * address: 0x40002808
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_CR_t {
@@ -1400,6 +1479,7 @@ typedef struct{
   * address: 0x4000280C
   * offset: 0xC
   * reset value: 0x00000007
+  * size: 0x20
   * access: 
   */
   struct RTC_ISR_t {
@@ -1428,6 +1508,7 @@ typedef struct{
   * address: 0x40002810
   * offset: 0x10
   * reset value: 0x007F00FF
+  * size: 0x20
   * access: read-write
   */
   struct RTC_PRER_t {
@@ -1442,6 +1523,7 @@ typedef struct{
   * address: 0x40002814
   * offset: 0x14
   * reset value: 0x0000FFFF
+  * size: 0x20
   * access: read-write
   */
   struct RTC_WUTR_t {
@@ -1454,6 +1536,7 @@ typedef struct{
   * address: 0x4000281C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_ALRMAR_t {
@@ -1479,6 +1562,7 @@ typedef struct{
   * address: 0x40002820
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_ALRMBR_t {
@@ -1504,6 +1588,7 @@ typedef struct{
   * address: 0x40002824
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct RTC_WPR_t {
@@ -1516,9 +1601,10 @@ typedef struct{
   * address: 0x40002828
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct RTC_SSR_t {
+  const struct RTC_SSR_t {
     uint32_t SS : 16;  ///< Sub second value, reset value: 0x0
   } SSR;
 
@@ -1528,6 +1614,7 @@ typedef struct{
   * address: 0x4000282C
   * offset: 0x2C
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct RTC_SHIFTR_t {
@@ -1542,9 +1629,10 @@ typedef struct{
   * address: 0x40002830
   * offset: 0x30
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct RTC_TSTR_t {
+  const struct RTC_TSTR_t {
     uint32_t SU : 4;  ///< Second units in BCD format, reset value: 0x0
     uint32_t ST : 3;  ///< Second tens in BCD format, reset value: 0x0
     uint32_t _RESERVED_61 : 1;
@@ -1562,9 +1650,10 @@ typedef struct{
   * address: 0x40002834
   * offset: 0x34
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct RTC_TSDR_t {
+  const struct RTC_TSDR_t {
     uint32_t DU : 4;  ///< Date units in BCD format, reset value: 0x0
     uint32_t DT : 2;  ///< Date tens in BCD format, reset value: 0x0
     uint32_t _RESERVED_63 : 2;
@@ -1579,9 +1668,10 @@ typedef struct{
   * address: 0x40002838
   * offset: 0x38
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct RTC_TSSSR_t {
+  const struct RTC_TSSSR_t {
     uint32_t SS : 16;  ///< Sub second value, reset value: 0x0
   } TSSSR;
 
@@ -1591,6 +1681,7 @@ typedef struct{
   * address: 0x4000283C
   * offset: 0x3C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_CALR_t {
@@ -1607,6 +1698,7 @@ typedef struct{
   * address: 0x40002840
   * offset: 0x40
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_TAFCR_t {
@@ -1637,6 +1729,7 @@ typedef struct{
   * address: 0x40002844
   * offset: 0x44
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_ALRMASSR_t {
@@ -1651,6 +1744,7 @@ typedef struct{
   * address: 0x40002848
   * offset: 0x48
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_ALRMBSSR_t {
@@ -1665,6 +1759,7 @@ typedef struct{
   * address: 0x40002850
   * offset: 0x50
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP0R_t {
@@ -1677,6 +1772,7 @@ typedef struct{
   * address: 0x40002854
   * offset: 0x54
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP1R_t {
@@ -1689,6 +1785,7 @@ typedef struct{
   * address: 0x40002858
   * offset: 0x58
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP2R_t {
@@ -1701,6 +1798,7 @@ typedef struct{
   * address: 0x4000285C
   * offset: 0x5C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP3R_t {
@@ -1713,6 +1811,7 @@ typedef struct{
   * address: 0x40002860
   * offset: 0x60
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP4R_t {
@@ -1725,6 +1824,7 @@ typedef struct{
   * address: 0x40002864
   * offset: 0x64
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP5R_t {
@@ -1737,6 +1837,7 @@ typedef struct{
   * address: 0x40002868
   * offset: 0x68
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP6R_t {
@@ -1749,6 +1850,7 @@ typedef struct{
   * address: 0x4000286C
   * offset: 0x6C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP7R_t {
@@ -1761,6 +1863,7 @@ typedef struct{
   * address: 0x40002870
   * offset: 0x70
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP8R_t {
@@ -1773,6 +1876,7 @@ typedef struct{
   * address: 0x40002874
   * offset: 0x74
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP9R_t {
@@ -1785,6 +1889,7 @@ typedef struct{
   * address: 0x40002878
   * offset: 0x78
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP10R_t {
@@ -1797,6 +1902,7 @@ typedef struct{
   * address: 0x4000287C
   * offset: 0x7C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP11R_t {
@@ -1809,6 +1915,7 @@ typedef struct{
   * address: 0x40002880
   * offset: 0x80
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP12R_t {
@@ -1821,6 +1928,7 @@ typedef struct{
   * address: 0x40002884
   * offset: 0x84
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP13R_t {
@@ -1833,6 +1941,7 @@ typedef struct{
   * address: 0x40002888
   * offset: 0x88
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP14R_t {
@@ -1845,6 +1954,7 @@ typedef struct{
   * address: 0x4000288C
   * offset: 0x8C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP15R_t {
@@ -1857,6 +1967,7 @@ typedef struct{
   * address: 0x40002890
   * offset: 0x90
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP16R_t {
@@ -1869,6 +1980,7 @@ typedef struct{
   * address: 0x40002894
   * offset: 0x94
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP17R_t {
@@ -1881,6 +1993,7 @@ typedef struct{
   * address: 0x40002898
   * offset: 0x98
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP18R_t {
@@ -1893,6 +2006,7 @@ typedef struct{
   * address: 0x4000289C
   * offset: 0x9C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP19R_t {
@@ -1905,6 +2019,7 @@ typedef struct{
   * address: 0x400028A0
   * offset: 0xA0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP20R_t {
@@ -1917,6 +2032,7 @@ typedef struct{
   * address: 0x400028A4
   * offset: 0xA4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP21R_t {
@@ -1929,6 +2045,7 @@ typedef struct{
   * address: 0x400028A8
   * offset: 0xA8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP22R_t {
@@ -1941,6 +2058,7 @@ typedef struct{
   * address: 0x400028AC
   * offset: 0xAC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP23R_t {
@@ -1953,6 +2071,7 @@ typedef struct{
   * address: 0x400028B0
   * offset: 0xB0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP24R_t {
@@ -1965,6 +2084,7 @@ typedef struct{
   * address: 0x400028B4
   * offset: 0xB4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP25R_t {
@@ -1977,6 +2097,7 @@ typedef struct{
   * address: 0x400028B8
   * offset: 0xB8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP26R_t {
@@ -1989,6 +2110,7 @@ typedef struct{
   * address: 0x400028BC
   * offset: 0xBC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP27R_t {
@@ -2001,6 +2123,7 @@ typedef struct{
   * address: 0x400028C0
   * offset: 0xC0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP28R_t {
@@ -2013,6 +2136,7 @@ typedef struct{
   * address: 0x400028C4
   * offset: 0xC4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP29R_t {
@@ -2025,6 +2149,7 @@ typedef struct{
   * address: 0x400028C8
   * offset: 0xC8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP30R_t {
@@ -2037,6 +2162,7 @@ typedef struct{
   * address: 0x400028CC
   * offset: 0xCC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RTC_BKP31R_t {
@@ -2059,6 +2185,7 @@ typedef struct{
   * address: 0x40002C00
   * offset: 0x0
   * reset value: 0x0000007F
+  * size: 0x20
   * access: read-write
   */
   struct WWDG_CR_t {
@@ -2072,6 +2199,7 @@ typedef struct{
   * address: 0x40002C04
   * offset: 0x4
   * reset value: 0x0000007F
+  * size: 0x20
   * access: read-write
   */
   struct WWDG_CFR_t {
@@ -2086,6 +2214,7 @@ typedef struct{
   * address: 0x40002C08
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct WWDG_SR_t {
@@ -2108,6 +2237,7 @@ typedef struct{
   * address: 0x40003000
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct IWDG_KR_t {
@@ -2120,6 +2250,7 @@ typedef struct{
   * address: 0x40003004
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct IWDG_PR_t {
@@ -2132,6 +2263,7 @@ typedef struct{
   * address: 0x40003008
   * offset: 0x8
   * reset value: 0x00000FFF
+  * size: 0x20
   * access: read-write
   */
   struct IWDG_RLR_t {
@@ -2144,9 +2276,10 @@ typedef struct{
   * address: 0x4000300C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct IWDG_SR_t {
+  const struct IWDG_SR_t {
     uint32_t PVU : 1;  ///< Watchdog prescaler value update, reset value: 0x0
     uint32_t RVU : 1;  ///< Watchdog counter reload value update, reset value: 0x0
     uint32_t WVU : 1;  ///< Watchdog counter window value update, reset value: 0x0
@@ -2158,6 +2291,7 @@ typedef struct{
   * address: 0x40003010
   * offset: 0x10
   * reset value: 0x00000FFF
+  * size: 0x20
   * access: read-write
   */
   struct IWDG_WINR_t {
@@ -2180,6 +2314,7 @@ typedef struct{
   * address: 0x40003400
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2S2ext_CR1_t {
@@ -2205,6 +2340,7 @@ typedef struct{
   * address: 0x40003404
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2S2ext_CR2_t {
@@ -2228,6 +2364,7 @@ typedef struct{
   * address: 0x40003408
   * offset: 0x8
   * reset value: 0x00000002
+  * size: 0x20
   * access: 
   */
   struct I2S2ext_SR_t {
@@ -2250,6 +2387,7 @@ typedef struct{
   * address: 0x4000340C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2S2ext_DR_t {
@@ -2262,6 +2400,7 @@ typedef struct{
   * address: 0x40003410
   * offset: 0x10
   * reset value: 0x00000007
+  * size: 0x20
   * access: read-write
   */
   struct I2S2ext_CRCPR_t {
@@ -2274,9 +2413,10 @@ typedef struct{
   * address: 0x40003414
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct I2S2ext_RXCRCR_t {
+  const struct I2S2ext_RXCRCR_t {
     uint32_t RxCRC : 16;  ///< Rx CRC register, reset value: 0x0
   } RXCRCR;
 
@@ -2286,9 +2426,10 @@ typedef struct{
   * address: 0x40003418
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct I2S2ext_TXCRCR_t {
+  const struct I2S2ext_TXCRCR_t {
     uint32_t TxCRC : 16;  ///< Tx CRC register, reset value: 0x0
   } TXCRCR;
 
@@ -2298,6 +2439,7 @@ typedef struct{
   * address: 0x4000341C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2S2ext_I2SCFGR_t {
@@ -2318,6 +2460,7 @@ typedef struct{
   * address: 0x40003420
   * offset: 0x20
   * reset value: 0x00000010
+  * size: 0x20
   * access: read-write
   */
   struct I2S2ext_I2SPR_t {
@@ -2342,6 +2485,7 @@ typedef struct{
   * address: 0x40003800
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct SPI2_CR1_t {
@@ -2367,6 +2511,7 @@ typedef struct{
   * address: 0x40003804
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct SPI2_CR2_t {
@@ -2390,6 +2535,7 @@ typedef struct{
   * address: 0x40003808
   * offset: 0x8
   * reset value: 0x00000002
+  * size: 0x20
   * access: 
   */
   struct SPI2_SR_t {
@@ -2412,6 +2558,7 @@ typedef struct{
   * address: 0x4000380C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct SPI2_DR_t {
@@ -2424,6 +2571,7 @@ typedef struct{
   * address: 0x40003810
   * offset: 0x10
   * reset value: 0x00000007
+  * size: 0x20
   * access: read-write
   */
   struct SPI2_CRCPR_t {
@@ -2436,9 +2584,10 @@ typedef struct{
   * address: 0x40003814
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct SPI2_RXCRCR_t {
+  const struct SPI2_RXCRCR_t {
     uint32_t RxCRC : 16;  ///< Rx CRC register, reset value: 0x0
   } RXCRCR;
 
@@ -2448,9 +2597,10 @@ typedef struct{
   * address: 0x40003818
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct SPI2_TXCRCR_t {
+  const struct SPI2_TXCRCR_t {
     uint32_t TxCRC : 16;  ///< Tx CRC register, reset value: 0x0
   } TXCRCR;
 
@@ -2460,6 +2610,7 @@ typedef struct{
   * address: 0x4000381C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct SPI2_I2SCFGR_t {
@@ -2480,6 +2631,7 @@ typedef struct{
   * address: 0x40003820
   * offset: 0x20
   * reset value: 0x00000010
+  * size: 0x20
   * access: read-write
   */
   struct SPI2_I2SPR_t {
@@ -2504,6 +2656,7 @@ typedef struct{
   * address: 0x40003C00
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct SPI3_CR1_t {
@@ -2529,6 +2682,7 @@ typedef struct{
   * address: 0x40003C04
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct SPI3_CR2_t {
@@ -2552,6 +2706,7 @@ typedef struct{
   * address: 0x40003C08
   * offset: 0x8
   * reset value: 0x00000002
+  * size: 0x20
   * access: 
   */
   struct SPI3_SR_t {
@@ -2574,6 +2729,7 @@ typedef struct{
   * address: 0x40003C0C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct SPI3_DR_t {
@@ -2586,6 +2742,7 @@ typedef struct{
   * address: 0x40003C10
   * offset: 0x10
   * reset value: 0x00000007
+  * size: 0x20
   * access: read-write
   */
   struct SPI3_CRCPR_t {
@@ -2598,9 +2755,10 @@ typedef struct{
   * address: 0x40003C14
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct SPI3_RXCRCR_t {
+  const struct SPI3_RXCRCR_t {
     uint32_t RxCRC : 16;  ///< Rx CRC register, reset value: 0x0
   } RXCRCR;
 
@@ -2610,9 +2768,10 @@ typedef struct{
   * address: 0x40003C18
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct SPI3_TXCRCR_t {
+  const struct SPI3_TXCRCR_t {
     uint32_t TxCRC : 16;  ///< Tx CRC register, reset value: 0x0
   } TXCRCR;
 
@@ -2622,6 +2781,7 @@ typedef struct{
   * address: 0x40003C1C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct SPI3_I2SCFGR_t {
@@ -2642,6 +2802,7 @@ typedef struct{
   * address: 0x40003C20
   * offset: 0x20
   * reset value: 0x00000010
+  * size: 0x20
   * access: read-write
   */
   struct SPI3_I2SPR_t {
@@ -2666,6 +2827,7 @@ typedef struct{
   * address: 0x40004000
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2S3ext_CR1_t {
@@ -2691,6 +2853,7 @@ typedef struct{
   * address: 0x40004004
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2S3ext_CR2_t {
@@ -2714,6 +2877,7 @@ typedef struct{
   * address: 0x40004008
   * offset: 0x8
   * reset value: 0x00000002
+  * size: 0x20
   * access: 
   */
   struct I2S3ext_SR_t {
@@ -2736,6 +2900,7 @@ typedef struct{
   * address: 0x4000400C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2S3ext_DR_t {
@@ -2748,6 +2913,7 @@ typedef struct{
   * address: 0x40004010
   * offset: 0x10
   * reset value: 0x00000007
+  * size: 0x20
   * access: read-write
   */
   struct I2S3ext_CRCPR_t {
@@ -2760,9 +2926,10 @@ typedef struct{
   * address: 0x40004014
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct I2S3ext_RXCRCR_t {
+  const struct I2S3ext_RXCRCR_t {
     uint32_t RxCRC : 16;  ///< Rx CRC register, reset value: 0x0
   } RXCRCR;
 
@@ -2772,9 +2939,10 @@ typedef struct{
   * address: 0x40004018
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct I2S3ext_TXCRCR_t {
+  const struct I2S3ext_TXCRCR_t {
     uint32_t TxCRC : 16;  ///< Tx CRC register, reset value: 0x0
   } TXCRCR;
 
@@ -2784,6 +2952,7 @@ typedef struct{
   * address: 0x4000401C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2S3ext_I2SCFGR_t {
@@ -2804,6 +2973,7 @@ typedef struct{
   * address: 0x40004020
   * offset: 0x20
   * reset value: 0x00000010
+  * size: 0x20
   * access: read-write
   */
   struct I2S3ext_I2SPR_t {
@@ -2828,6 +2998,7 @@ typedef struct{
   * address: 0x40004400
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART2_CR1_t {
@@ -2859,6 +3030,7 @@ typedef struct{
   * address: 0x40004404
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART2_CR2_t {
@@ -2891,6 +3063,7 @@ typedef struct{
   * address: 0x40004408
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART2_CR3_t {
@@ -2922,6 +3095,7 @@ typedef struct{
   * address: 0x4000440C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART2_BRR_t {
@@ -2935,6 +3109,7 @@ typedef struct{
   * address: 0x40004410
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART2_GTPR_t {
@@ -2948,6 +3123,7 @@ typedef struct{
   * address: 0x40004414
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART2_RTOR_t {
@@ -2961,6 +3137,7 @@ typedef struct{
   * address: 0x40004418
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART2_RQR_t {
@@ -2977,9 +3154,10 @@ typedef struct{
   * address: 0x4000441C
   * offset: 0x1C
   * reset value: 0x000000C0
+  * size: 0x20
   * access: read-only
   */
-  struct USART2_ISR_t {
+  const struct USART2_ISR_t {
     uint32_t PE : 1;  ///< Parity error, reset value: 0x0
     uint32_t FE : 1;  ///< Framing error, reset value: 0x0
     uint32_t NF : 1;  ///< Noise detected flag, reset value: 0x0
@@ -3011,6 +3189,7 @@ typedef struct{
   * address: 0x40004420
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART2_ICR_t {
@@ -3039,9 +3218,10 @@ typedef struct{
   * address: 0x40004424
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct USART2_RDR_t {
+  const struct USART2_RDR_t {
     uint32_t RDR : 9;  ///< Receive data value, reset value: 0x0
   } RDR;
 
@@ -3051,6 +3231,7 @@ typedef struct{
   * address: 0x40004428
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART2_TDR_t {
@@ -3073,6 +3254,7 @@ typedef struct{
   * address: 0x40004800
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART3_CR1_t {
@@ -3104,6 +3286,7 @@ typedef struct{
   * address: 0x40004804
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART3_CR2_t {
@@ -3136,6 +3319,7 @@ typedef struct{
   * address: 0x40004808
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART3_CR3_t {
@@ -3167,6 +3351,7 @@ typedef struct{
   * address: 0x4000480C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART3_BRR_t {
@@ -3180,6 +3365,7 @@ typedef struct{
   * address: 0x40004810
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART3_GTPR_t {
@@ -3193,6 +3379,7 @@ typedef struct{
   * address: 0x40004814
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART3_RTOR_t {
@@ -3206,6 +3393,7 @@ typedef struct{
   * address: 0x40004818
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART3_RQR_t {
@@ -3222,9 +3410,10 @@ typedef struct{
   * address: 0x4000481C
   * offset: 0x1C
   * reset value: 0x000000C0
+  * size: 0x20
   * access: read-only
   */
-  struct USART3_ISR_t {
+  const struct USART3_ISR_t {
     uint32_t PE : 1;  ///< Parity error, reset value: 0x0
     uint32_t FE : 1;  ///< Framing error, reset value: 0x0
     uint32_t NF : 1;  ///< Noise detected flag, reset value: 0x0
@@ -3256,6 +3445,7 @@ typedef struct{
   * address: 0x40004820
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART3_ICR_t {
@@ -3284,9 +3474,10 @@ typedef struct{
   * address: 0x40004824
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct USART3_RDR_t {
+  const struct USART3_RDR_t {
     uint32_t RDR : 9;  ///< Receive data value, reset value: 0x0
   } RDR;
 
@@ -3296,6 +3487,7 @@ typedef struct{
   * address: 0x40004828
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART3_TDR_t {
@@ -3318,6 +3510,7 @@ typedef struct{
   * address: 0x40004C00
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct UART4_CR1_t {
@@ -3349,6 +3542,7 @@ typedef struct{
   * address: 0x40004C04
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct UART4_CR2_t {
@@ -3381,6 +3575,7 @@ typedef struct{
   * address: 0x40004C08
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct UART4_CR3_t {
@@ -3412,6 +3607,7 @@ typedef struct{
   * address: 0x40004C0C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct UART4_BRR_t {
@@ -3425,6 +3621,7 @@ typedef struct{
   * address: 0x40004C10
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct UART4_GTPR_t {
@@ -3438,6 +3635,7 @@ typedef struct{
   * address: 0x40004C14
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct UART4_RTOR_t {
@@ -3451,6 +3649,7 @@ typedef struct{
   * address: 0x40004C18
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct UART4_RQR_t {
@@ -3467,9 +3666,10 @@ typedef struct{
   * address: 0x40004C1C
   * offset: 0x1C
   * reset value: 0x000000C0
+  * size: 0x20
   * access: read-only
   */
-  struct UART4_ISR_t {
+  const struct UART4_ISR_t {
     uint32_t PE : 1;  ///< Parity error, reset value: 0x0
     uint32_t FE : 1;  ///< Framing error, reset value: 0x0
     uint32_t NF : 1;  ///< Noise detected flag, reset value: 0x0
@@ -3501,6 +3701,7 @@ typedef struct{
   * address: 0x40004C20
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct UART4_ICR_t {
@@ -3529,9 +3730,10 @@ typedef struct{
   * address: 0x40004C24
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct UART4_RDR_t {
+  const struct UART4_RDR_t {
     uint32_t RDR : 9;  ///< Receive data value, reset value: 0x0
   } RDR;
 
@@ -3541,6 +3743,7 @@ typedef struct{
   * address: 0x40004C28
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct UART4_TDR_t {
@@ -3563,6 +3766,7 @@ typedef struct{
   * address: 0x40005000
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct UART5_CR1_t {
@@ -3594,6 +3798,7 @@ typedef struct{
   * address: 0x40005004
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct UART5_CR2_t {
@@ -3626,6 +3831,7 @@ typedef struct{
   * address: 0x40005008
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct UART5_CR3_t {
@@ -3657,6 +3863,7 @@ typedef struct{
   * address: 0x4000500C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct UART5_BRR_t {
@@ -3670,6 +3877,7 @@ typedef struct{
   * address: 0x40005010
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct UART5_GTPR_t {
@@ -3683,6 +3891,7 @@ typedef struct{
   * address: 0x40005014
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct UART5_RTOR_t {
@@ -3696,6 +3905,7 @@ typedef struct{
   * address: 0x40005018
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct UART5_RQR_t {
@@ -3712,9 +3922,10 @@ typedef struct{
   * address: 0x4000501C
   * offset: 0x1C
   * reset value: 0x000000C0
+  * size: 0x20
   * access: read-only
   */
-  struct UART5_ISR_t {
+  const struct UART5_ISR_t {
     uint32_t PE : 1;  ///< Parity error, reset value: 0x0
     uint32_t FE : 1;  ///< Framing error, reset value: 0x0
     uint32_t NF : 1;  ///< Noise detected flag, reset value: 0x0
@@ -3746,6 +3957,7 @@ typedef struct{
   * address: 0x40005020
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct UART5_ICR_t {
@@ -3774,9 +3986,10 @@ typedef struct{
   * address: 0x40005024
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct UART5_RDR_t {
+  const struct UART5_RDR_t {
     uint32_t RDR : 9;  ///< Receive data value, reset value: 0x0
   } RDR;
 
@@ -3786,6 +3999,7 @@ typedef struct{
   * address: 0x40005028
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct UART5_TDR_t {
@@ -3808,6 +4022,7 @@ typedef struct{
   * address: 0x40005400
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct I2C1_CR1_t {
@@ -3840,6 +4055,7 @@ typedef struct{
   * address: 0x40005404
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2C1_CR2_t {
@@ -3864,6 +4080,7 @@ typedef struct{
   * address: 0x40005408
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2C1_OAR1_t {
@@ -3881,6 +4098,7 @@ typedef struct{
   * address: 0x4000540C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2C1_OAR2_t {
@@ -3897,6 +4115,7 @@ typedef struct{
   * address: 0x40005410
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2C1_TIMINGR_t {
@@ -3914,6 +4133,7 @@ typedef struct{
   * address: 0x40005414
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2C1_TIMEOUTR_t {
@@ -3932,6 +4152,7 @@ typedef struct{
   * address: 0x40005418
   * offset: 0x18
   * reset value: 0x00000001
+  * size: 0x20
   * access: 
   */
   struct I2C1_ISR_t {
@@ -3961,6 +4182,7 @@ typedef struct{
   * address: 0x4000541C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct I2C1_ICR_t {
@@ -3983,9 +4205,10 @@ typedef struct{
   * address: 0x40005420
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct I2C1_PECR_t {
+  const struct I2C1_PECR_t {
     uint32_t PEC : 8;  ///< Packet error checking register, reset value: 0x0
   } PECR;
 
@@ -3995,9 +4218,10 @@ typedef struct{
   * address: 0x40005424
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct I2C1_RXDR_t {
+  const struct I2C1_RXDR_t {
     uint32_t RXDATA : 8;  ///< 8-bit receive data, reset value: 0x0
   } RXDR;
 
@@ -4007,6 +4231,7 @@ typedef struct{
   * address: 0x40005428
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2C1_TXDR_t {
@@ -4029,6 +4254,7 @@ typedef struct{
   * address: 0x40005800
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct I2C2_CR1_t {
@@ -4061,6 +4287,7 @@ typedef struct{
   * address: 0x40005804
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2C2_CR2_t {
@@ -4085,6 +4312,7 @@ typedef struct{
   * address: 0x40005808
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2C2_OAR1_t {
@@ -4102,6 +4330,7 @@ typedef struct{
   * address: 0x4000580C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2C2_OAR2_t {
@@ -4118,6 +4347,7 @@ typedef struct{
   * address: 0x40005810
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2C2_TIMINGR_t {
@@ -4135,6 +4365,7 @@ typedef struct{
   * address: 0x40005814
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2C2_TIMEOUTR_t {
@@ -4153,6 +4384,7 @@ typedef struct{
   * address: 0x40005818
   * offset: 0x18
   * reset value: 0x00000001
+  * size: 0x20
   * access: 
   */
   struct I2C2_ISR_t {
@@ -4182,6 +4414,7 @@ typedef struct{
   * address: 0x4000581C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct I2C2_ICR_t {
@@ -4204,9 +4437,10 @@ typedef struct{
   * address: 0x40005820
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct I2C2_PECR_t {
+  const struct I2C2_PECR_t {
     uint32_t PEC : 8;  ///< Packet error checking register, reset value: 0x0
   } PECR;
 
@@ -4216,9 +4450,10 @@ typedef struct{
   * address: 0x40005824
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct I2C2_RXDR_t {
+  const struct I2C2_RXDR_t {
     uint32_t RXDATA : 8;  ///< 8-bit receive data, reset value: 0x0
   } RXDR;
 
@@ -4228,6 +4463,7 @@ typedef struct{
   * address: 0x40005828
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2C2_TXDR_t {
@@ -4250,6 +4486,7 @@ typedef struct{
   * address: 0x40005C00
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct USB_FS_USB_EP0R_t {
@@ -4271,6 +4508,7 @@ typedef struct{
   * address: 0x40005C04
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct USB_FS_USB_EP1R_t {
@@ -4292,6 +4530,7 @@ typedef struct{
   * address: 0x40005C08
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct USB_FS_USB_EP2R_t {
@@ -4313,6 +4552,7 @@ typedef struct{
   * address: 0x40005C0C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct USB_FS_USB_EP3R_t {
@@ -4334,6 +4574,7 @@ typedef struct{
   * address: 0x40005C10
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct USB_FS_USB_EP4R_t {
@@ -4355,6 +4596,7 @@ typedef struct{
   * address: 0x40005C14
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct USB_FS_USB_EP5R_t {
@@ -4376,6 +4618,7 @@ typedef struct{
   * address: 0x40005C18
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct USB_FS_USB_EP6R_t {
@@ -4397,6 +4640,7 @@ typedef struct{
   * address: 0x40005C1C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct USB_FS_USB_EP7R_t {
@@ -4413,12 +4657,14 @@ typedef struct{
   } USB_EP7R;
 
   const uint8_t _RESERVED_126[4];
+
   /** 
   * name: USB_CNTR
   * description: control register
   * address: 0x40005C40
   * offset: 0x40
   * reset value: 0x00000003
+  * size: 0x20
   * access: read-write
   */
   struct USB_FS_USB_CNTR_t {
@@ -4444,6 +4690,7 @@ typedef struct{
   * address: 0x40005C44
   * offset: 0x44
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct USB_FS_ISTR_t {
@@ -4466,9 +4713,10 @@ typedef struct{
   * address: 0x40005C48
   * offset: 0x48
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct USB_FS_FNR_t {
+  const struct USB_FS_FNR_t {
     uint32_t FN : 11;  ///< Frame number, reset value: 0x0
     uint32_t LSOF : 2;  ///< Lost SOF, reset value: 0x0
     uint32_t LCK : 1;  ///< Locked, reset value: 0x0
@@ -4482,6 +4730,7 @@ typedef struct{
   * address: 0x40005C4C
   * offset: 0x4C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USB_FS_DADDR_t {
@@ -4501,6 +4750,7 @@ typedef struct{
   * address: 0x40005C50
   * offset: 0x50
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USB_FS_BTABLE_t {
@@ -4524,6 +4774,7 @@ typedef struct{
   * address: 0x40006400
   * offset: 0x0
   * reset value: 0x00010002
+  * size: 0x20
   * access: read-write
   */
   struct CAN_MCR_t {
@@ -4546,6 +4797,7 @@ typedef struct{
   * address: 0x40006404
   * offset: 0x4
   * reset value: 0x00000C02
+  * size: 0x20
   * access: 
   */
   struct CAN_MSR_t {
@@ -4567,6 +4819,7 @@ typedef struct{
   * address: 0x40006408
   * offset: 0x8
   * reset value: 0x1C000000
+  * size: 0x20
   * access: 
   */
   struct CAN_TSR_t {
@@ -4603,6 +4856,7 @@ typedef struct{
   * address: 0x4000640C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct CAN_RF0R_t {
@@ -4619,6 +4873,7 @@ typedef struct{
   * address: 0x40006410
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct CAN_RF1R_t {
@@ -4635,6 +4890,7 @@ typedef struct{
   * address: 0x40006414
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_IER_t {
@@ -4662,6 +4918,7 @@ typedef struct{
   * address: 0x40006418
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct CAN_ESR_t {
@@ -4681,6 +4938,7 @@ typedef struct{
   * address: 0x4000641C
   * offset: 0x1C
   * reset value: 0x01230000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_BTR_t {
@@ -4696,12 +4954,14 @@ typedef struct{
   } BTR;
 
   const uint8_t _RESERVED_144[324];
+
   /** 
   * name: TI0R
   * description: TX mailbox identifier register
   * address: 0x40006580
   * offset: 0x180
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_TI0R_t {
@@ -4718,6 +4978,7 @@ typedef struct{
   * address: 0x40006584
   * offset: 0x184
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_TDT0R_t {
@@ -4734,6 +4995,7 @@ typedef struct{
   * address: 0x40006588
   * offset: 0x188
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_TDL0R_t {
@@ -4749,6 +5011,7 @@ typedef struct{
   * address: 0x4000658C
   * offset: 0x18C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_TDH0R_t {
@@ -4764,6 +5027,7 @@ typedef struct{
   * address: 0x40006590
   * offset: 0x190
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_TI1R_t {
@@ -4780,6 +5044,7 @@ typedef struct{
   * address: 0x40006594
   * offset: 0x194
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_TDT1R_t {
@@ -4796,6 +5061,7 @@ typedef struct{
   * address: 0x40006598
   * offset: 0x198
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_TDL1R_t {
@@ -4811,6 +5077,7 @@ typedef struct{
   * address: 0x4000659C
   * offset: 0x19C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_TDH1R_t {
@@ -4826,6 +5093,7 @@ typedef struct{
   * address: 0x400065A0
   * offset: 0x1A0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_TI2R_t {
@@ -4842,6 +5110,7 @@ typedef struct{
   * address: 0x400065A4
   * offset: 0x1A4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_TDT2R_t {
@@ -4858,6 +5127,7 @@ typedef struct{
   * address: 0x400065A8
   * offset: 0x1A8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_TDL2R_t {
@@ -4873,6 +5143,7 @@ typedef struct{
   * address: 0x400065AC
   * offset: 0x1AC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_TDH2R_t {
@@ -4888,9 +5159,10 @@ typedef struct{
   * address: 0x400065B0
   * offset: 0x1B0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct CAN_RI0R_t {
+  const struct CAN_RI0R_t {
     uint32_t _RESERVED_151 : 1;
     uint32_t RTR : 1;  ///< RTR, reset value: 0x0
     uint32_t IDE : 1;  ///< IDE, reset value: 0x0
@@ -4904,9 +5176,10 @@ typedef struct{
   * address: 0x400065B4
   * offset: 0x1B4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct CAN_RDT0R_t {
+  const struct CAN_RDT0R_t {
     uint32_t DLC : 4;  ///< DLC, reset value: 0x0
     uint32_t _RESERVED_152 : 4;
     uint32_t FMI : 8;  ///< FMI, reset value: 0x0
@@ -4919,9 +5192,10 @@ typedef struct{
   * address: 0x400065B8
   * offset: 0x1B8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct CAN_RDL0R_t {
+  const struct CAN_RDL0R_t {
     uint32_t DATA0 : 8;  ///< DATA0, reset value: 0x0
     uint32_t DATA1 : 8;  ///< DATA1, reset value: 0x0
     uint32_t DATA2 : 8;  ///< DATA2, reset value: 0x0
@@ -4934,9 +5208,10 @@ typedef struct{
   * address: 0x400065BC
   * offset: 0x1BC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct CAN_RDH0R_t {
+  const struct CAN_RDH0R_t {
     uint32_t DATA4 : 8;  ///< DATA4, reset value: 0x0
     uint32_t DATA5 : 8;  ///< DATA5, reset value: 0x0
     uint32_t DATA6 : 8;  ///< DATA6, reset value: 0x0
@@ -4949,9 +5224,10 @@ typedef struct{
   * address: 0x400065C0
   * offset: 0x1C0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct CAN_RI1R_t {
+  const struct CAN_RI1R_t {
     uint32_t _RESERVED_153 : 1;
     uint32_t RTR : 1;  ///< RTR, reset value: 0x0
     uint32_t IDE : 1;  ///< IDE, reset value: 0x0
@@ -4965,9 +5241,10 @@ typedef struct{
   * address: 0x400065C4
   * offset: 0x1C4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct CAN_RDT1R_t {
+  const struct CAN_RDT1R_t {
     uint32_t DLC : 4;  ///< DLC, reset value: 0x0
     uint32_t _RESERVED_154 : 4;
     uint32_t FMI : 8;  ///< FMI, reset value: 0x0
@@ -4980,9 +5257,10 @@ typedef struct{
   * address: 0x400065C8
   * offset: 0x1C8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct CAN_RDL1R_t {
+  const struct CAN_RDL1R_t {
     uint32_t DATA0 : 8;  ///< DATA0, reset value: 0x0
     uint32_t DATA1 : 8;  ///< DATA1, reset value: 0x0
     uint32_t DATA2 : 8;  ///< DATA2, reset value: 0x0
@@ -4995,9 +5273,10 @@ typedef struct{
   * address: 0x400065CC
   * offset: 0x1CC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct CAN_RDH1R_t {
+  const struct CAN_RDH1R_t {
     uint32_t DATA4 : 8;  ///< DATA4, reset value: 0x0
     uint32_t DATA5 : 8;  ///< DATA5, reset value: 0x0
     uint32_t DATA6 : 8;  ///< DATA6, reset value: 0x0
@@ -5005,12 +5284,14 @@ typedef struct{
   } RDH1R;
 
   const uint8_t _RESERVED_155[20];
+
   /** 
   * name: FMR
   * description: filter master register
   * address: 0x40006600
   * offset: 0x200
   * reset value: 0x2A1C0E01
+  * size: 0x20
   * access: read-write
   */
   struct CAN_FMR_t {
@@ -5025,6 +5306,7 @@ typedef struct{
   * address: 0x40006604
   * offset: 0x204
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_FM1R_t {
@@ -5064,6 +5346,7 @@ typedef struct{
   * address: 0x4000660C
   * offset: 0x20C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_FS1R_t {
@@ -5103,6 +5386,7 @@ typedef struct{
   * address: 0x40006614
   * offset: 0x214
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_FFA1R_t {
@@ -5142,6 +5426,7 @@ typedef struct{
   * address: 0x4000661C
   * offset: 0x21C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_FA1R_t {
@@ -5176,12 +5461,14 @@ typedef struct{
   } FA1R;
 
   const uint8_t _RESERVED_157[4];
+
   /** 
   * name: F0R1
   * description: Filter bank 0 register 1
   * address: 0x40006640
   * offset: 0x240
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F0R1_t {
@@ -5225,6 +5512,7 @@ typedef struct{
   * address: 0x40006644
   * offset: 0x244
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F0R2_t {
@@ -5268,6 +5556,7 @@ typedef struct{
   * address: 0x40006648
   * offset: 0x248
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F1R1_t {
@@ -5311,6 +5600,7 @@ typedef struct{
   * address: 0x4000664C
   * offset: 0x24C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F1R2_t {
@@ -5354,6 +5644,7 @@ typedef struct{
   * address: 0x40006650
   * offset: 0x250
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F2R1_t {
@@ -5397,6 +5688,7 @@ typedef struct{
   * address: 0x40006654
   * offset: 0x254
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F2R2_t {
@@ -5440,6 +5732,7 @@ typedef struct{
   * address: 0x40006658
   * offset: 0x258
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F3R1_t {
@@ -5483,6 +5776,7 @@ typedef struct{
   * address: 0x4000665C
   * offset: 0x25C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F3R2_t {
@@ -5526,6 +5820,7 @@ typedef struct{
   * address: 0x40006660
   * offset: 0x260
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F4R1_t {
@@ -5569,6 +5864,7 @@ typedef struct{
   * address: 0x40006664
   * offset: 0x264
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F4R2_t {
@@ -5612,6 +5908,7 @@ typedef struct{
   * address: 0x40006668
   * offset: 0x268
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F5R1_t {
@@ -5655,6 +5952,7 @@ typedef struct{
   * address: 0x4000666C
   * offset: 0x26C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F5R2_t {
@@ -5698,6 +5996,7 @@ typedef struct{
   * address: 0x40006670
   * offset: 0x270
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F6R1_t {
@@ -5741,6 +6040,7 @@ typedef struct{
   * address: 0x40006674
   * offset: 0x274
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F6R2_t {
@@ -5784,6 +6084,7 @@ typedef struct{
   * address: 0x40006678
   * offset: 0x278
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F7R1_t {
@@ -5827,6 +6128,7 @@ typedef struct{
   * address: 0x4000667C
   * offset: 0x27C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F7R2_t {
@@ -5870,6 +6172,7 @@ typedef struct{
   * address: 0x40006680
   * offset: 0x280
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F8R1_t {
@@ -5913,6 +6216,7 @@ typedef struct{
   * address: 0x40006684
   * offset: 0x284
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F8R2_t {
@@ -5956,6 +6260,7 @@ typedef struct{
   * address: 0x40006688
   * offset: 0x288
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F9R1_t {
@@ -5999,6 +6304,7 @@ typedef struct{
   * address: 0x4000668C
   * offset: 0x28C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F9R2_t {
@@ -6042,6 +6348,7 @@ typedef struct{
   * address: 0x40006690
   * offset: 0x290
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F10R1_t {
@@ -6085,6 +6392,7 @@ typedef struct{
   * address: 0x40006694
   * offset: 0x294
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F10R2_t {
@@ -6128,6 +6436,7 @@ typedef struct{
   * address: 0x40006698
   * offset: 0x298
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F11R1_t {
@@ -6171,6 +6480,7 @@ typedef struct{
   * address: 0x4000669C
   * offset: 0x29C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F11R2_t {
@@ -6214,6 +6524,7 @@ typedef struct{
   * address: 0x400066A0
   * offset: 0x2A0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F12R1_t {
@@ -6257,6 +6568,7 @@ typedef struct{
   * address: 0x400066A4
   * offset: 0x2A4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F12R2_t {
@@ -6300,6 +6612,7 @@ typedef struct{
   * address: 0x400066A8
   * offset: 0x2A8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F13R1_t {
@@ -6343,6 +6656,7 @@ typedef struct{
   * address: 0x400066AC
   * offset: 0x2AC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F13R2_t {
@@ -6386,6 +6700,7 @@ typedef struct{
   * address: 0x400066B0
   * offset: 0x2B0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F14R1_t {
@@ -6429,6 +6744,7 @@ typedef struct{
   * address: 0x400066B4
   * offset: 0x2B4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F14R2_t {
@@ -6472,6 +6788,7 @@ typedef struct{
   * address: 0x400066B8
   * offset: 0x2B8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F15R1_t {
@@ -6515,6 +6832,7 @@ typedef struct{
   * address: 0x400066BC
   * offset: 0x2BC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F15R2_t {
@@ -6558,6 +6876,7 @@ typedef struct{
   * address: 0x400066C0
   * offset: 0x2C0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F16R1_t {
@@ -6601,6 +6920,7 @@ typedef struct{
   * address: 0x400066C4
   * offset: 0x2C4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F16R2_t {
@@ -6644,6 +6964,7 @@ typedef struct{
   * address: 0x400066C8
   * offset: 0x2C8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F17R1_t {
@@ -6687,6 +7008,7 @@ typedef struct{
   * address: 0x400066CC
   * offset: 0x2CC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F17R2_t {
@@ -6730,6 +7052,7 @@ typedef struct{
   * address: 0x400066D0
   * offset: 0x2D0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F18R1_t {
@@ -6773,6 +7096,7 @@ typedef struct{
   * address: 0x400066D4
   * offset: 0x2D4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F18R2_t {
@@ -6816,6 +7140,7 @@ typedef struct{
   * address: 0x400066D8
   * offset: 0x2D8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F19R1_t {
@@ -6859,6 +7184,7 @@ typedef struct{
   * address: 0x400066DC
   * offset: 0x2DC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F19R2_t {
@@ -6902,6 +7228,7 @@ typedef struct{
   * address: 0x400066E0
   * offset: 0x2E0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F20R1_t {
@@ -6945,6 +7272,7 @@ typedef struct{
   * address: 0x400066E4
   * offset: 0x2E4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F20R2_t {
@@ -6988,6 +7316,7 @@ typedef struct{
   * address: 0x400066E8
   * offset: 0x2E8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F21R1_t {
@@ -7031,6 +7360,7 @@ typedef struct{
   * address: 0x400066EC
   * offset: 0x2EC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F21R2_t {
@@ -7074,6 +7404,7 @@ typedef struct{
   * address: 0x400066F0
   * offset: 0x2F0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F22R1_t {
@@ -7117,6 +7448,7 @@ typedef struct{
   * address: 0x400066F4
   * offset: 0x2F4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F22R2_t {
@@ -7160,6 +7492,7 @@ typedef struct{
   * address: 0x400066F8
   * offset: 0x2F8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F23R1_t {
@@ -7203,6 +7536,7 @@ typedef struct{
   * address: 0x400066FC
   * offset: 0x2FC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F23R2_t {
@@ -7246,6 +7580,7 @@ typedef struct{
   * address: 0x40006700
   * offset: 0x300
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F24R1_t {
@@ -7289,6 +7624,7 @@ typedef struct{
   * address: 0x40006704
   * offset: 0x304
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F24R2_t {
@@ -7332,6 +7668,7 @@ typedef struct{
   * address: 0x40006708
   * offset: 0x308
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F25R1_t {
@@ -7375,6 +7712,7 @@ typedef struct{
   * address: 0x4000670C
   * offset: 0x30C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F25R2_t {
@@ -7418,6 +7756,7 @@ typedef struct{
   * address: 0x40006710
   * offset: 0x310
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F26R1_t {
@@ -7461,6 +7800,7 @@ typedef struct{
   * address: 0x40006714
   * offset: 0x314
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F26R2_t {
@@ -7504,6 +7844,7 @@ typedef struct{
   * address: 0x40006718
   * offset: 0x318
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F27R1_t {
@@ -7547,6 +7888,7 @@ typedef struct{
   * address: 0x4000671C
   * offset: 0x31C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CAN_F27R2_t {
@@ -7600,6 +7942,7 @@ typedef struct{
   * address: 0x40007000
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct PWR_CR_t {
@@ -7618,6 +7961,7 @@ typedef struct{
   * address: 0x40007004
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct PWR_CSR_t {
@@ -7645,6 +7989,7 @@ typedef struct{
   * address: 0x40007400
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DAC_CR_t {
@@ -7673,6 +8018,7 @@ typedef struct{
   * address: 0x40007404
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct DAC_SWTRIGR_t {
@@ -7686,6 +8032,7 @@ typedef struct{
   * address: 0x40007408
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DAC_DHR12R1_t {
@@ -7698,6 +8045,7 @@ typedef struct{
   * address: 0x4000740C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DAC_DHR12L1_t {
@@ -7711,6 +8059,7 @@ typedef struct{
   * address: 0x40007410
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DAC_DHR8R1_t {
@@ -7723,6 +8072,7 @@ typedef struct{
   * address: 0x40007414
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DAC_DHR12R2_t {
@@ -7735,6 +8085,7 @@ typedef struct{
   * address: 0x40007418
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DAC_DHR12L2_t {
@@ -7748,6 +8099,7 @@ typedef struct{
   * address: 0x4000741C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DAC_DHR8R2_t {
@@ -7760,6 +8112,7 @@ typedef struct{
   * address: 0x40007420
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DAC_DHR12RD_t {
@@ -7774,6 +8127,7 @@ typedef struct{
   * address: 0x40007424
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DAC_DHR12LD_t {
@@ -7789,6 +8143,7 @@ typedef struct{
   * address: 0x40007428
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DAC_DHR8RD_t {
@@ -7802,9 +8157,10 @@ typedef struct{
   * address: 0x4000742C
   * offset: 0x2C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct DAC_DOR1_t {
+  const struct DAC_DOR1_t {
     uint32_t DACC1DOR : 12;  ///< DAC channel1 data output, reset value: 0x0
   } DOR1;
 
@@ -7814,9 +8170,10 @@ typedef struct{
   * address: 0x40007430
   * offset: 0x30
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct DAC_DOR2_t {
+  const struct DAC_DOR2_t {
     uint32_t DACC2DOR : 12;  ///< DAC channel2 data output, reset value: 0x0
   } DOR2;
 
@@ -7826,6 +8183,7 @@ typedef struct{
   * address: 0x40007434
   * offset: 0x34
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DAC_SR_t {
@@ -7851,6 +8209,7 @@ typedef struct{
   * address: 0x40007800
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct I2C3_CR1_t {
@@ -7883,6 +8242,7 @@ typedef struct{
   * address: 0x40007804
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2C3_CR2_t {
@@ -7907,6 +8267,7 @@ typedef struct{
   * address: 0x40007808
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2C3_OAR1_t {
@@ -7924,6 +8285,7 @@ typedef struct{
   * address: 0x4000780C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2C3_OAR2_t {
@@ -7940,6 +8302,7 @@ typedef struct{
   * address: 0x40007810
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2C3_TIMINGR_t {
@@ -7957,6 +8320,7 @@ typedef struct{
   * address: 0x40007814
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2C3_TIMEOUTR_t {
@@ -7975,6 +8339,7 @@ typedef struct{
   * address: 0x40007818
   * offset: 0x18
   * reset value: 0x00000001
+  * size: 0x20
   * access: 
   */
   struct I2C3_ISR_t {
@@ -8004,6 +8369,7 @@ typedef struct{
   * address: 0x4000781C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct I2C3_ICR_t {
@@ -8026,9 +8392,10 @@ typedef struct{
   * address: 0x40007820
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct I2C3_PECR_t {
+  const struct I2C3_PECR_t {
     uint32_t PEC : 8;  ///< Packet error checking register, reset value: 0x0
   } PECR;
 
@@ -8038,9 +8405,10 @@ typedef struct{
   * address: 0x40007824
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct I2C3_RXDR_t {
+  const struct I2C3_RXDR_t {
     uint32_t RXDATA : 8;  ///< 8-bit receive data, reset value: 0x0
   } RXDR;
 
@@ -8050,6 +8418,7 @@ typedef struct{
   * address: 0x40007828
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct I2C3_TXDR_t {
@@ -8072,6 +8441,7 @@ typedef struct{
   * address: 0x40010000
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct SYSCFG_COMP_OPAMP_SYSCFG_CFGR1_t {
@@ -8104,6 +8474,7 @@ typedef struct{
   * address: 0x40010004
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct SYSCFG_COMP_OPAMP_SYSCFG_RCR_t {
@@ -8123,6 +8494,7 @@ typedef struct{
   * address: 0x40010008
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct SYSCFG_COMP_OPAMP_SYSCFG_EXTICR1_t {
@@ -8138,6 +8510,7 @@ typedef struct{
   * address: 0x4001000C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct SYSCFG_COMP_OPAMP_SYSCFG_EXTICR2_t {
@@ -8153,6 +8526,7 @@ typedef struct{
   * address: 0x40010010
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct SYSCFG_COMP_OPAMP_SYSCFG_EXTICR3_t {
@@ -8168,6 +8542,7 @@ typedef struct{
   * address: 0x40010014
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct SYSCFG_COMP_OPAMP_SYSCFG_EXTICR4_t {
@@ -8183,6 +8558,7 @@ typedef struct{
   * address: 0x40010018
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct SYSCFG_COMP_OPAMP_SYSCFG_CFGR2_t {
@@ -8201,6 +8577,7 @@ typedef struct{
   * address: 0x4001001C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct SYSCFG_COMP_OPAMP_COMP1_CSR_t {
@@ -8225,6 +8602,7 @@ typedef struct{
   * address: 0x40010020
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct SYSCFG_COMP_OPAMP_COMP2_CSR_t {
@@ -8250,6 +8628,7 @@ typedef struct{
   * address: 0x40010024
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct SYSCFG_COMP_OPAMP_COMP3_CSR_t {
@@ -8275,6 +8654,7 @@ typedef struct{
   * address: 0x40010028
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct SYSCFG_COMP_OPAMP_COMP4_CSR_t {
@@ -8301,6 +8681,7 @@ typedef struct{
   * address: 0x4001002C
   * offset: 0x2C
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct SYSCFG_COMP_OPAMP_COMP5_CSR_t {
@@ -8326,6 +8707,7 @@ typedef struct{
   * address: 0x40010030
   * offset: 0x30
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct SYSCFG_COMP_OPAMP_COMP6_CSR_t {
@@ -8352,6 +8734,7 @@ typedef struct{
   * address: 0x40010034
   * offset: 0x34
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct SYSCFG_COMP_OPAMP_COMP7_CSR_t {
@@ -8377,6 +8760,7 @@ typedef struct{
   * address: 0x40010038
   * offset: 0x38
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct SYSCFG_COMP_OPAMP_OPAMP1_CSR_t {
@@ -8405,6 +8789,7 @@ typedef struct{
   * address: 0x4001003C
   * offset: 0x3C
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct SYSCFG_COMP_OPAMP_OPAMP2_CSR_t {
@@ -8433,6 +8818,7 @@ typedef struct{
   * address: 0x40010040
   * offset: 0x40
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct SYSCFG_COMP_OPAMP_OPAMP3_CSR_t {
@@ -8461,6 +8847,7 @@ typedef struct{
   * address: 0x40010044
   * offset: 0x44
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct SYSCFG_COMP_OPAMP_OPAMP4_CSR_t {
@@ -8499,6 +8886,7 @@ typedef struct{
   * address: 0x40010400
   * offset: 0x0
   * reset value: 0x1F800000
+  * size: 0x20
   * access: read-write
   */
   struct EXTI_IMR1_t {
@@ -8542,6 +8930,7 @@ typedef struct{
   * address: 0x40010404
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct EXTI_EMR1_t {
@@ -8585,6 +8974,7 @@ typedef struct{
   * address: 0x40010408
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct EXTI_RTSR1_t {
@@ -8623,6 +9013,7 @@ typedef struct{
   * address: 0x4001040C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct EXTI_FTSR1_t {
@@ -8661,6 +9052,7 @@ typedef struct{
   * address: 0x40010410
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct EXTI_SWIER1_t {
@@ -8699,6 +9091,7 @@ typedef struct{
   * address: 0x40010414
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct EXTI_PR1_t {
@@ -8737,6 +9130,7 @@ typedef struct{
   * address: 0x40010418
   * offset: 0x18
   * reset value: 0xFFFFFFFC
+  * size: 0x20
   * access: read-write
   */
   struct EXTI_IMR2_t {
@@ -8752,6 +9146,7 @@ typedef struct{
   * address: 0x4001041C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct EXTI_EMR2_t {
@@ -8767,6 +9162,7 @@ typedef struct{
   * address: 0x40010420
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct EXTI_RTSR2_t {
@@ -8780,6 +9176,7 @@ typedef struct{
   * address: 0x40010424
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct EXTI_FTSR2_t {
@@ -8793,6 +9190,7 @@ typedef struct{
   * address: 0x40010428
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct EXTI_SWIER2_t {
@@ -8806,6 +9204,7 @@ typedef struct{
   * address: 0x4001042C
   * offset: 0x2C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct EXTI_PR2_t {
@@ -8829,6 +9228,7 @@ typedef struct{
   * address: 0x40012C00
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM1_CR1_t {
@@ -8850,6 +9250,7 @@ typedef struct{
   * address: 0x40012C04
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM1_CR2_t {
@@ -8880,6 +9281,7 @@ typedef struct{
   * address: 0x40012C08
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM1_SMCR_t {
@@ -8900,6 +9302,7 @@ typedef struct{
   * address: 0x40012C0C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM1_DIER_t {
@@ -8926,6 +9329,7 @@ typedef struct{
   * address: 0x40012C10
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM1_SR_t {
@@ -8953,6 +9357,7 @@ typedef struct{
   * address: 0x40012C14
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct TIM1_EGR_t {
@@ -8973,6 +9378,7 @@ typedef struct{
   * address: 0x40012C18
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM1_CCMR1_Output_t {
@@ -8997,6 +9403,7 @@ typedef struct{
   * address: 0x40012C18
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM1_CCMR1_Input_t {
@@ -9014,6 +9421,7 @@ typedef struct{
   * address: 0x40012C1C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM1_CCMR2_Output_t {
@@ -9038,6 +9446,7 @@ typedef struct{
   * address: 0x40012C1C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM1_CCMR2_Input_t {
@@ -9055,6 +9464,7 @@ typedef struct{
   * address: 0x40012C20
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM1_CCER_t {
@@ -9087,6 +9497,7 @@ typedef struct{
   * address: 0x40012C24
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct TIM1_CNT_t {
@@ -9101,6 +9512,7 @@ typedef struct{
   * address: 0x40012C28
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM1_PSC_t {
@@ -9113,6 +9525,7 @@ typedef struct{
   * address: 0x40012C2C
   * offset: 0x2C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM1_ARR_t {
@@ -9125,6 +9538,7 @@ typedef struct{
   * address: 0x40012C30
   * offset: 0x30
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM1_RCR_t {
@@ -9137,6 +9551,7 @@ typedef struct{
   * address: 0x40012C34
   * offset: 0x34
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM1_CCR1_t {
@@ -9149,6 +9564,7 @@ typedef struct{
   * address: 0x40012C38
   * offset: 0x38
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM1_CCR2_t {
@@ -9161,6 +9577,7 @@ typedef struct{
   * address: 0x40012C3C
   * offset: 0x3C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM1_CCR3_t {
@@ -9173,6 +9590,7 @@ typedef struct{
   * address: 0x40012C40
   * offset: 0x40
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM1_CCR4_t {
@@ -9185,6 +9603,7 @@ typedef struct{
   * address: 0x40012C44
   * offset: 0x44
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM1_BDTR_t {
@@ -9208,6 +9627,7 @@ typedef struct{
   * address: 0x40012C48
   * offset: 0x48
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM1_DCR_t {
@@ -9222,6 +9642,7 @@ typedef struct{
   * address: 0x40012C4C
   * offset: 0x4C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM1_DMAR_t {
@@ -9234,6 +9655,7 @@ typedef struct{
   * address: 0x40012C54
   * offset: 0x54
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM1_CCMR3_Output_t {
@@ -9258,6 +9680,7 @@ typedef struct{
   * address: 0x40012C58
   * offset: 0x58
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM1_CCR5_t {
@@ -9274,6 +9697,7 @@ typedef struct{
   * address: 0x40012C5C
   * offset: 0x5C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM1_CCR6_t {
@@ -9286,6 +9710,7 @@ typedef struct{
   * address: 0x40012C60
   * offset: 0x60
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM1_OR_t {
@@ -9309,6 +9734,7 @@ typedef struct{
   * address: 0x40013000
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct SPI1_CR1_t {
@@ -9334,6 +9760,7 @@ typedef struct{
   * address: 0x40013004
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct SPI1_CR2_t {
@@ -9357,6 +9784,7 @@ typedef struct{
   * address: 0x40013008
   * offset: 0x8
   * reset value: 0x00000002
+  * size: 0x20
   * access: 
   */
   struct SPI1_SR_t {
@@ -9379,6 +9807,7 @@ typedef struct{
   * address: 0x4001300C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct SPI1_DR_t {
@@ -9391,6 +9820,7 @@ typedef struct{
   * address: 0x40013010
   * offset: 0x10
   * reset value: 0x00000007
+  * size: 0x20
   * access: read-write
   */
   struct SPI1_CRCPR_t {
@@ -9403,9 +9833,10 @@ typedef struct{
   * address: 0x40013014
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct SPI1_RXCRCR_t {
+  const struct SPI1_RXCRCR_t {
     uint32_t RxCRC : 16;  ///< Rx CRC register, reset value: 0x0
   } RXCRCR;
 
@@ -9415,9 +9846,10 @@ typedef struct{
   * address: 0x40013018
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct SPI1_TXCRCR_t {
+  const struct SPI1_TXCRCR_t {
     uint32_t TxCRC : 16;  ///< Tx CRC register, reset value: 0x0
   } TXCRCR;
 
@@ -9427,6 +9859,7 @@ typedef struct{
   * address: 0x4001301C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct SPI1_I2SCFGR_t {
@@ -9447,6 +9880,7 @@ typedef struct{
   * address: 0x40013020
   * offset: 0x20
   * reset value: 0x00000010
+  * size: 0x20
   * access: read-write
   */
   struct SPI1_I2SPR_t {
@@ -9471,6 +9905,7 @@ typedef struct{
   * address: 0x40013400
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM8_CR1_t {
@@ -9492,6 +9927,7 @@ typedef struct{
   * address: 0x40013404
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM8_CR2_t {
@@ -9522,6 +9958,7 @@ typedef struct{
   * address: 0x40013408
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM8_SMCR_t {
@@ -9542,6 +9979,7 @@ typedef struct{
   * address: 0x4001340C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM8_DIER_t {
@@ -9568,6 +10006,7 @@ typedef struct{
   * address: 0x40013410
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM8_SR_t {
@@ -9595,6 +10034,7 @@ typedef struct{
   * address: 0x40013414
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct TIM8_EGR_t {
@@ -9615,6 +10055,7 @@ typedef struct{
   * address: 0x40013418
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM8_CCMR1_Output_t {
@@ -9639,6 +10080,7 @@ typedef struct{
   * address: 0x40013418
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM8_CCMR1_Input_t {
@@ -9656,6 +10098,7 @@ typedef struct{
   * address: 0x4001341C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM8_CCMR2_Output_t {
@@ -9680,6 +10123,7 @@ typedef struct{
   * address: 0x4001341C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM8_CCMR2_Input_t {
@@ -9697,6 +10141,7 @@ typedef struct{
   * address: 0x40013420
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM8_CCER_t {
@@ -9729,6 +10174,7 @@ typedef struct{
   * address: 0x40013424
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct TIM8_CNT_t {
@@ -9743,6 +10189,7 @@ typedef struct{
   * address: 0x40013428
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM8_PSC_t {
@@ -9755,6 +10202,7 @@ typedef struct{
   * address: 0x4001342C
   * offset: 0x2C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM8_ARR_t {
@@ -9767,6 +10215,7 @@ typedef struct{
   * address: 0x40013430
   * offset: 0x30
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM8_RCR_t {
@@ -9779,6 +10228,7 @@ typedef struct{
   * address: 0x40013434
   * offset: 0x34
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM8_CCR1_t {
@@ -9791,6 +10241,7 @@ typedef struct{
   * address: 0x40013438
   * offset: 0x38
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM8_CCR2_t {
@@ -9803,6 +10254,7 @@ typedef struct{
   * address: 0x4001343C
   * offset: 0x3C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM8_CCR3_t {
@@ -9815,6 +10267,7 @@ typedef struct{
   * address: 0x40013440
   * offset: 0x40
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM8_CCR4_t {
@@ -9827,6 +10280,7 @@ typedef struct{
   * address: 0x40013444
   * offset: 0x44
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM8_BDTR_t {
@@ -9850,6 +10304,7 @@ typedef struct{
   * address: 0x40013448
   * offset: 0x48
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM8_DCR_t {
@@ -9864,6 +10319,7 @@ typedef struct{
   * address: 0x4001344C
   * offset: 0x4C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM8_DMAR_t {
@@ -9876,6 +10332,7 @@ typedef struct{
   * address: 0x40013454
   * offset: 0x54
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM8_CCMR3_Output_t {
@@ -9900,6 +10357,7 @@ typedef struct{
   * address: 0x40013458
   * offset: 0x58
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM8_CCR5_t {
@@ -9916,6 +10374,7 @@ typedef struct{
   * address: 0x4001345C
   * offset: 0x5C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM8_CCR6_t {
@@ -9928,6 +10387,7 @@ typedef struct{
   * address: 0x40013460
   * offset: 0x60
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM8_OR_t {
@@ -9951,6 +10411,7 @@ typedef struct{
   * address: 0x40013800
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART1_CR1_t {
@@ -9982,6 +10443,7 @@ typedef struct{
   * address: 0x40013804
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART1_CR2_t {
@@ -10014,6 +10476,7 @@ typedef struct{
   * address: 0x40013808
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART1_CR3_t {
@@ -10045,6 +10508,7 @@ typedef struct{
   * address: 0x4001380C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART1_BRR_t {
@@ -10058,6 +10522,7 @@ typedef struct{
   * address: 0x40013810
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART1_GTPR_t {
@@ -10071,6 +10536,7 @@ typedef struct{
   * address: 0x40013814
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART1_RTOR_t {
@@ -10084,6 +10550,7 @@ typedef struct{
   * address: 0x40013818
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART1_RQR_t {
@@ -10100,9 +10567,10 @@ typedef struct{
   * address: 0x4001381C
   * offset: 0x1C
   * reset value: 0x000000C0
+  * size: 0x20
   * access: read-only
   */
-  struct USART1_ISR_t {
+  const struct USART1_ISR_t {
     uint32_t PE : 1;  ///< Parity error, reset value: 0x0
     uint32_t FE : 1;  ///< Framing error, reset value: 0x0
     uint32_t NF : 1;  ///< Noise detected flag, reset value: 0x0
@@ -10134,6 +10602,7 @@ typedef struct{
   * address: 0x40013820
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART1_ICR_t {
@@ -10162,9 +10631,10 @@ typedef struct{
   * address: 0x40013824
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct USART1_RDR_t {
+  const struct USART1_RDR_t {
     uint32_t RDR : 9;  ///< Receive data value, reset value: 0x0
   } RDR;
 
@@ -10174,6 +10644,7 @@ typedef struct{
   * address: 0x40013828
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct USART1_TDR_t {
@@ -10196,6 +10667,7 @@ typedef struct{
   * address: 0x40013C00
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct SPI4_CR1_t {
@@ -10221,6 +10693,7 @@ typedef struct{
   * address: 0x40013C04
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct SPI4_CR2_t {
@@ -10244,6 +10717,7 @@ typedef struct{
   * address: 0x40013C08
   * offset: 0x8
   * reset value: 0x00000002
+  * size: 0x20
   * access: 
   */
   struct SPI4_SR_t {
@@ -10266,6 +10740,7 @@ typedef struct{
   * address: 0x40013C0C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct SPI4_DR_t {
@@ -10278,6 +10753,7 @@ typedef struct{
   * address: 0x40013C10
   * offset: 0x10
   * reset value: 0x00000007
+  * size: 0x20
   * access: read-write
   */
   struct SPI4_CRCPR_t {
@@ -10290,9 +10766,10 @@ typedef struct{
   * address: 0x40013C14
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct SPI4_RXCRCR_t {
+  const struct SPI4_RXCRCR_t {
     uint32_t RxCRC : 16;  ///< Rx CRC register, reset value: 0x0
   } RXCRCR;
 
@@ -10302,9 +10779,10 @@ typedef struct{
   * address: 0x40013C18
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct SPI4_TXCRCR_t {
+  const struct SPI4_TXCRCR_t {
     uint32_t TxCRC : 16;  ///< Tx CRC register, reset value: 0x0
   } TXCRCR;
 
@@ -10314,6 +10792,7 @@ typedef struct{
   * address: 0x40013C1C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct SPI4_I2SCFGR_t {
@@ -10334,6 +10813,7 @@ typedef struct{
   * address: 0x40013C20
   * offset: 0x20
   * reset value: 0x00000010
+  * size: 0x20
   * access: read-write
   */
   struct SPI4_I2SPR_t {
@@ -10358,6 +10838,7 @@ typedef struct{
   * address: 0x40014000
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM15_CR1_t {
@@ -10378,6 +10859,7 @@ typedef struct{
   * address: 0x40014004
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM15_CR2_t {
@@ -10398,6 +10880,7 @@ typedef struct{
   * address: 0x40014008
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM15_SMCR_t {
@@ -10415,6 +10898,7 @@ typedef struct{
   * address: 0x4001400C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM15_DIER_t {
@@ -10439,6 +10923,7 @@ typedef struct{
   * address: 0x40014010
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM15_SR_t {
@@ -10460,6 +10945,7 @@ typedef struct{
   * address: 0x40014014
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct TIM15_EGR_t {
@@ -10478,6 +10964,7 @@ typedef struct{
   * address: 0x40014018
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM15_CCMR1_Output_t {
@@ -10502,6 +10989,7 @@ typedef struct{
   * address: 0x40014018
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM15_CCMR1_Input_t {
@@ -10519,6 +11007,7 @@ typedef struct{
   * address: 0x40014020
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM15_CCER_t {
@@ -10538,6 +11027,7 @@ typedef struct{
   * address: 0x40014024
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct TIM15_CNT_t {
@@ -10552,6 +11042,7 @@ typedef struct{
   * address: 0x40014028
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM15_PSC_t {
@@ -10564,6 +11055,7 @@ typedef struct{
   * address: 0x4001402C
   * offset: 0x2C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM15_ARR_t {
@@ -10576,6 +11068,7 @@ typedef struct{
   * address: 0x40014030
   * offset: 0x30
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM15_RCR_t {
@@ -10588,6 +11081,7 @@ typedef struct{
   * address: 0x40014034
   * offset: 0x34
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM15_CCR1_t {
@@ -10600,6 +11094,7 @@ typedef struct{
   * address: 0x40014038
   * offset: 0x38
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM15_CCR2_t {
@@ -10612,6 +11107,7 @@ typedef struct{
   * address: 0x40014044
   * offset: 0x44
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM15_BDTR_t {
@@ -10632,6 +11128,7 @@ typedef struct{
   * address: 0x40014048
   * offset: 0x48
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM15_DCR_t {
@@ -10646,6 +11143,7 @@ typedef struct{
   * address: 0x4001404C
   * offset: 0x4C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM15_DMAR_t {
@@ -10668,6 +11166,7 @@ typedef struct{
   * address: 0x40014400
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM16_CR1_t {
@@ -10688,6 +11187,7 @@ typedef struct{
   * address: 0x40014404
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM16_CR2_t {
@@ -10706,6 +11206,7 @@ typedef struct{
   * address: 0x4001440C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM16_DIER_t {
@@ -10728,6 +11229,7 @@ typedef struct{
   * address: 0x40014410
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM16_SR_t {
@@ -10747,6 +11249,7 @@ typedef struct{
   * address: 0x40014414
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct TIM16_EGR_t {
@@ -10764,6 +11267,7 @@ typedef struct{
   * address: 0x40014418
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM16_CCMR1_Output_t {
@@ -10781,6 +11285,7 @@ typedef struct{
   * address: 0x40014418
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM16_CCMR1_Input_t {
@@ -10795,6 +11300,7 @@ typedef struct{
   * address: 0x40014420
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM16_CCER_t {
@@ -10810,6 +11316,7 @@ typedef struct{
   * address: 0x40014424
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct TIM16_CNT_t {
@@ -10824,6 +11331,7 @@ typedef struct{
   * address: 0x40014428
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM16_PSC_t {
@@ -10836,6 +11344,7 @@ typedef struct{
   * address: 0x4001442C
   * offset: 0x2C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM16_ARR_t {
@@ -10848,6 +11357,7 @@ typedef struct{
   * address: 0x40014430
   * offset: 0x30
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM16_RCR_t {
@@ -10860,6 +11370,7 @@ typedef struct{
   * address: 0x40014434
   * offset: 0x34
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM16_CCR1_t {
@@ -10872,6 +11383,7 @@ typedef struct{
   * address: 0x40014444
   * offset: 0x44
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM16_BDTR_t {
@@ -10892,6 +11404,7 @@ typedef struct{
   * address: 0x40014448
   * offset: 0x48
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM16_DCR_t {
@@ -10906,6 +11419,7 @@ typedef struct{
   * address: 0x4001444C
   * offset: 0x4C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM16_DMAR_t {
@@ -10918,6 +11432,7 @@ typedef struct{
   * address: 0x40014450
   * offset: 0x50
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM16_OR_t {
@@ -10939,6 +11454,7 @@ typedef struct{
   * address: 0x40014800
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM17_CR1_t {
@@ -10959,6 +11475,7 @@ typedef struct{
   * address: 0x40014804
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM17_CR2_t {
@@ -10977,6 +11494,7 @@ typedef struct{
   * address: 0x4001480C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM17_DIER_t {
@@ -10999,6 +11517,7 @@ typedef struct{
   * address: 0x40014810
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM17_SR_t {
@@ -11018,6 +11537,7 @@ typedef struct{
   * address: 0x40014814
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct TIM17_EGR_t {
@@ -11035,6 +11555,7 @@ typedef struct{
   * address: 0x40014818
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM17_CCMR1_Output_t {
@@ -11052,6 +11573,7 @@ typedef struct{
   * address: 0x40014818
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM17_CCMR1_Input_t {
@@ -11066,6 +11588,7 @@ typedef struct{
   * address: 0x40014820
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM17_CCER_t {
@@ -11081,6 +11604,7 @@ typedef struct{
   * address: 0x40014824
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct TIM17_CNT_t {
@@ -11095,6 +11619,7 @@ typedef struct{
   * address: 0x40014828
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM17_PSC_t {
@@ -11107,6 +11632,7 @@ typedef struct{
   * address: 0x4001482C
   * offset: 0x2C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM17_ARR_t {
@@ -11119,6 +11645,7 @@ typedef struct{
   * address: 0x40014830
   * offset: 0x30
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM17_RCR_t {
@@ -11131,6 +11658,7 @@ typedef struct{
   * address: 0x40014834
   * offset: 0x34
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM17_CCR1_t {
@@ -11143,6 +11671,7 @@ typedef struct{
   * address: 0x40014844
   * offset: 0x44
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM17_BDTR_t {
@@ -11163,6 +11692,7 @@ typedef struct{
   * address: 0x40014848
   * offset: 0x48
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM17_DCR_t {
@@ -11177,6 +11707,7 @@ typedef struct{
   * address: 0x4001484C
   * offset: 0x4C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM17_DMAR_t {
@@ -11199,6 +11730,7 @@ typedef struct{
   * address: 0x40015000
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM20_CR1_t {
@@ -11220,6 +11752,7 @@ typedef struct{
   * address: 0x40015004
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM20_CR2_t {
@@ -11250,6 +11783,7 @@ typedef struct{
   * address: 0x40015008
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM20_SMCR_t {
@@ -11270,6 +11804,7 @@ typedef struct{
   * address: 0x4001500C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM20_DIER_t {
@@ -11296,6 +11831,7 @@ typedef struct{
   * address: 0x40015010
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM20_SR_t {
@@ -11323,6 +11859,7 @@ typedef struct{
   * address: 0x40015014
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct TIM20_EGR_t {
@@ -11343,6 +11880,7 @@ typedef struct{
   * address: 0x40015018
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM20_CCMR1_Output_t {
@@ -11367,6 +11905,7 @@ typedef struct{
   * address: 0x40015018
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM20_CCMR1_Input_t {
@@ -11384,6 +11923,7 @@ typedef struct{
   * address: 0x4001501C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM20_CCMR2_Output_t {
@@ -11408,6 +11948,7 @@ typedef struct{
   * address: 0x4001501C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM20_CCMR2_Input_t {
@@ -11425,6 +11966,7 @@ typedef struct{
   * address: 0x40015020
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM20_CCER_t {
@@ -11457,6 +11999,7 @@ typedef struct{
   * address: 0x40015024
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct TIM20_CNT_t {
@@ -11471,6 +12014,7 @@ typedef struct{
   * address: 0x40015028
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM20_PSC_t {
@@ -11483,6 +12027,7 @@ typedef struct{
   * address: 0x4001502C
   * offset: 0x2C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM20_ARR_t {
@@ -11495,6 +12040,7 @@ typedef struct{
   * address: 0x40015030
   * offset: 0x30
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM20_RCR_t {
@@ -11507,6 +12053,7 @@ typedef struct{
   * address: 0x40015034
   * offset: 0x34
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM20_CCR1_t {
@@ -11519,6 +12066,7 @@ typedef struct{
   * address: 0x40015038
   * offset: 0x38
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM20_CCR2_t {
@@ -11531,6 +12079,7 @@ typedef struct{
   * address: 0x4001503C
   * offset: 0x3C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM20_CCR3_t {
@@ -11543,6 +12092,7 @@ typedef struct{
   * address: 0x40015040
   * offset: 0x40
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM20_CCR4_t {
@@ -11555,6 +12105,7 @@ typedef struct{
   * address: 0x40015044
   * offset: 0x44
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM20_BDTR_t {
@@ -11578,6 +12129,7 @@ typedef struct{
   * address: 0x40015048
   * offset: 0x48
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM20_DCR_t {
@@ -11592,6 +12144,7 @@ typedef struct{
   * address: 0x4001504C
   * offset: 0x4C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM20_DMAR_t {
@@ -11604,6 +12157,7 @@ typedef struct{
   * address: 0x40015054
   * offset: 0x54
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM20_CCMR3_Output_t {
@@ -11628,6 +12182,7 @@ typedef struct{
   * address: 0x40015058
   * offset: 0x58
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM20_CCR5_t {
@@ -11644,6 +12199,7 @@ typedef struct{
   * address: 0x4001505C
   * offset: 0x5C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM20_CCR6_t {
@@ -11656,6 +12212,7 @@ typedef struct{
   * address: 0x40015060
   * offset: 0x60
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TIM20_OR_t {
@@ -11679,9 +12236,10 @@ typedef struct{
   * address: 0x40020000
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct DMA1_ISR_t {
+  const struct DMA1_ISR_t {
     uint32_t GIF1 : 1;  ///< Channel 1 Global interrupt flag, reset value: 0x0
     uint32_t TCIF1 : 1;  ///< Channel 1 Transfer Complete flag, reset value: 0x0
     uint32_t HTIF1 : 1;  ///< Channel 1 Half Transfer Complete flag, reset value: 0x0
@@ -11718,6 +12276,7 @@ typedef struct{
   * address: 0x40020004
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct DMA1_IFCR_t {
@@ -11757,6 +12316,7 @@ typedef struct{
   * address: 0x40020008
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CCR1_t {
@@ -11780,6 +12340,7 @@ typedef struct{
   * address: 0x4002000C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CNDTR1_t {
@@ -11792,6 +12353,7 @@ typedef struct{
   * address: 0x40020010
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CPAR1_t {
@@ -11804,6 +12366,7 @@ typedef struct{
   * address: 0x40020014
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CMAR1_t {
@@ -11816,6 +12379,7 @@ typedef struct{
   * address: 0x4002001C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CCR2_t {
@@ -11839,6 +12403,7 @@ typedef struct{
   * address: 0x40020020
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CNDTR2_t {
@@ -11851,6 +12416,7 @@ typedef struct{
   * address: 0x40020024
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CPAR2_t {
@@ -11863,6 +12429,7 @@ typedef struct{
   * address: 0x40020028
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CMAR2_t {
@@ -11875,6 +12442,7 @@ typedef struct{
   * address: 0x40020030
   * offset: 0x30
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CCR3_t {
@@ -11898,6 +12466,7 @@ typedef struct{
   * address: 0x40020034
   * offset: 0x34
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CNDTR3_t {
@@ -11910,6 +12479,7 @@ typedef struct{
   * address: 0x40020038
   * offset: 0x38
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CPAR3_t {
@@ -11922,6 +12492,7 @@ typedef struct{
   * address: 0x4002003C
   * offset: 0x3C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CMAR3_t {
@@ -11934,6 +12505,7 @@ typedef struct{
   * address: 0x40020044
   * offset: 0x44
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CCR4_t {
@@ -11957,6 +12529,7 @@ typedef struct{
   * address: 0x40020048
   * offset: 0x48
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CNDTR4_t {
@@ -11969,6 +12542,7 @@ typedef struct{
   * address: 0x4002004C
   * offset: 0x4C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CPAR4_t {
@@ -11981,6 +12555,7 @@ typedef struct{
   * address: 0x40020050
   * offset: 0x50
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CMAR4_t {
@@ -11993,6 +12568,7 @@ typedef struct{
   * address: 0x40020058
   * offset: 0x58
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CCR5_t {
@@ -12016,6 +12592,7 @@ typedef struct{
   * address: 0x4002005C
   * offset: 0x5C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CNDTR5_t {
@@ -12028,6 +12605,7 @@ typedef struct{
   * address: 0x40020060
   * offset: 0x60
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CPAR5_t {
@@ -12040,6 +12618,7 @@ typedef struct{
   * address: 0x40020064
   * offset: 0x64
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CMAR5_t {
@@ -12052,6 +12631,7 @@ typedef struct{
   * address: 0x4002006C
   * offset: 0x6C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CCR6_t {
@@ -12075,6 +12655,7 @@ typedef struct{
   * address: 0x40020070
   * offset: 0x70
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CNDTR6_t {
@@ -12087,6 +12668,7 @@ typedef struct{
   * address: 0x40020074
   * offset: 0x74
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CPAR6_t {
@@ -12099,6 +12681,7 @@ typedef struct{
   * address: 0x40020078
   * offset: 0x78
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CMAR6_t {
@@ -12111,6 +12694,7 @@ typedef struct{
   * address: 0x40020080
   * offset: 0x80
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CCR7_t {
@@ -12134,6 +12718,7 @@ typedef struct{
   * address: 0x40020084
   * offset: 0x84
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CNDTR7_t {
@@ -12146,6 +12731,7 @@ typedef struct{
   * address: 0x40020088
   * offset: 0x88
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CPAR7_t {
@@ -12158,6 +12744,7 @@ typedef struct{
   * address: 0x4002008C
   * offset: 0x8C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA1_CMAR7_t {
@@ -12180,9 +12767,10 @@ typedef struct{
   * address: 0x40020400
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct DMA2_ISR_t {
+  const struct DMA2_ISR_t {
     uint32_t GIF1 : 1;  ///< Channel 1 Global interrupt flag, reset value: 0x0
     uint32_t TCIF1 : 1;  ///< Channel 1 Transfer Complete flag, reset value: 0x0
     uint32_t HTIF1 : 1;  ///< Channel 1 Half Transfer Complete flag, reset value: 0x0
@@ -12219,6 +12807,7 @@ typedef struct{
   * address: 0x40020404
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct DMA2_IFCR_t {
@@ -12258,6 +12847,7 @@ typedef struct{
   * address: 0x40020408
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CCR1_t {
@@ -12281,6 +12871,7 @@ typedef struct{
   * address: 0x4002040C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CNDTR1_t {
@@ -12293,6 +12884,7 @@ typedef struct{
   * address: 0x40020410
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CPAR1_t {
@@ -12305,6 +12897,7 @@ typedef struct{
   * address: 0x40020414
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CMAR1_t {
@@ -12317,6 +12910,7 @@ typedef struct{
   * address: 0x4002041C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CCR2_t {
@@ -12340,6 +12934,7 @@ typedef struct{
   * address: 0x40020420
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CNDTR2_t {
@@ -12352,6 +12947,7 @@ typedef struct{
   * address: 0x40020424
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CPAR2_t {
@@ -12364,6 +12960,7 @@ typedef struct{
   * address: 0x40020428
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CMAR2_t {
@@ -12376,6 +12973,7 @@ typedef struct{
   * address: 0x40020430
   * offset: 0x30
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CCR3_t {
@@ -12399,6 +12997,7 @@ typedef struct{
   * address: 0x40020434
   * offset: 0x34
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CNDTR3_t {
@@ -12411,6 +13010,7 @@ typedef struct{
   * address: 0x40020438
   * offset: 0x38
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CPAR3_t {
@@ -12423,6 +13023,7 @@ typedef struct{
   * address: 0x4002043C
   * offset: 0x3C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CMAR3_t {
@@ -12435,6 +13036,7 @@ typedef struct{
   * address: 0x40020444
   * offset: 0x44
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CCR4_t {
@@ -12458,6 +13060,7 @@ typedef struct{
   * address: 0x40020448
   * offset: 0x48
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CNDTR4_t {
@@ -12470,6 +13073,7 @@ typedef struct{
   * address: 0x4002044C
   * offset: 0x4C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CPAR4_t {
@@ -12482,6 +13086,7 @@ typedef struct{
   * address: 0x40020450
   * offset: 0x50
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CMAR4_t {
@@ -12494,6 +13099,7 @@ typedef struct{
   * address: 0x40020458
   * offset: 0x58
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CCR5_t {
@@ -12517,6 +13123,7 @@ typedef struct{
   * address: 0x4002045C
   * offset: 0x5C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CNDTR5_t {
@@ -12529,6 +13136,7 @@ typedef struct{
   * address: 0x40020460
   * offset: 0x60
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CPAR5_t {
@@ -12541,6 +13149,7 @@ typedef struct{
   * address: 0x40020464
   * offset: 0x64
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CMAR5_t {
@@ -12553,6 +13162,7 @@ typedef struct{
   * address: 0x4002046C
   * offset: 0x6C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CCR6_t {
@@ -12576,6 +13186,7 @@ typedef struct{
   * address: 0x40020470
   * offset: 0x70
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CNDTR6_t {
@@ -12588,6 +13199,7 @@ typedef struct{
   * address: 0x40020474
   * offset: 0x74
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CPAR6_t {
@@ -12600,6 +13212,7 @@ typedef struct{
   * address: 0x40020478
   * offset: 0x78
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CMAR6_t {
@@ -12612,6 +13225,7 @@ typedef struct{
   * address: 0x40020480
   * offset: 0x80
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CCR7_t {
@@ -12635,6 +13249,7 @@ typedef struct{
   * address: 0x40020484
   * offset: 0x84
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CNDTR7_t {
@@ -12647,6 +13262,7 @@ typedef struct{
   * address: 0x40020488
   * offset: 0x88
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CPAR7_t {
@@ -12659,6 +13275,7 @@ typedef struct{
   * address: 0x4002048C
   * offset: 0x8C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DMA2_CMAR7_t {
@@ -12681,6 +13298,7 @@ typedef struct{
   * address: 0x40021000
   * offset: 0x0
   * reset value: 0x00000083
+  * size: 0x20
   * access: 
   */
   struct RCC_CR_t {
@@ -12704,6 +13322,7 @@ typedef struct{
   * address: 0x40021004
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct RCC_CFGR_t {
@@ -12729,6 +13348,7 @@ typedef struct{
   * address: 0x40021008
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct RCC_CIR_t {
@@ -12760,6 +13380,7 @@ typedef struct{
   * address: 0x4002100C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RCC_APB2RSTR_t {
@@ -12781,6 +13402,7 @@ typedef struct{
   * address: 0x40021010
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RCC_APB1RSTR_t {
@@ -12816,6 +13438,7 @@ typedef struct{
   * address: 0x40021014
   * offset: 0x14
   * reset value: 0x00000014
+  * size: 0x20
   * access: read-write
   */
   struct RCC_AHBENR_t {
@@ -12846,6 +13469,7 @@ typedef struct{
   * address: 0x40021018
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RCC_APB2ENR_t {
@@ -12867,6 +13491,7 @@ typedef struct{
   * address: 0x4002101C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RCC_APB1ENR_t {
@@ -12900,6 +13525,7 @@ typedef struct{
   * address: 0x40021020
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct RCC_BDCR_t {
@@ -12920,6 +13546,7 @@ typedef struct{
   * address: 0x40021024
   * offset: 0x24
   * reset value: 0x0C000000
+  * size: 0x20
   * access: 
   */
   struct RCC_CSR_t {
@@ -12942,6 +13569,7 @@ typedef struct{
   * address: 0x40021028
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RCC_AHBRSTR_t {
@@ -12965,6 +13593,7 @@ typedef struct{
   * address: 0x4002102C
   * offset: 0x2C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RCC_CFGR2_t {
@@ -12979,6 +13608,7 @@ typedef struct{
   * address: 0x40021030
   * offset: 0x30
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct RCC_CFGR3_t {
@@ -13012,6 +13642,7 @@ typedef struct{
   * address: 0x40022000
   * offset: 0x0
   * reset value: 0x00000030
+  * size: 0x20
   * access: 
   */
   struct Flash_ACR_t {
@@ -13027,6 +13658,7 @@ typedef struct{
   * address: 0x40022004
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct Flash_KEYR_t {
@@ -13039,6 +13671,7 @@ typedef struct{
   * address: 0x40022008
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct Flash_OPTKEYR_t {
@@ -13051,6 +13684,7 @@ typedef struct{
   * address: 0x4002200C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct Flash_SR_t {
@@ -13068,6 +13702,7 @@ typedef struct{
   * address: 0x40022010
   * offset: 0x10
   * reset value: 0x00000080
+  * size: 0x20
   * access: read-write
   */
   struct Flash_CR_t {
@@ -13093,6 +13728,7 @@ typedef struct{
   * address: 0x40022014
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct Flash_AR_t {
@@ -13105,9 +13741,10 @@ typedef struct{
   * address: 0x4002201C
   * offset: 0x1C
   * reset value: 0xFFFFFF02
+  * size: 0x20
   * access: read-only
   */
-  struct Flash_OBR_t {
+  const struct Flash_OBR_t {
     uint32_t OPTERR : 1;  ///< Option byte error, reset value: 0x0
     uint32_t LEVEL1_PROT : 1;  ///< Level 1 protection status, reset value: 0x1
     uint32_t LEVEL2_PROT : 1;  ///< Level 2 protection status, reset value: 0x0
@@ -13130,9 +13767,10 @@ typedef struct{
   * address: 0x40022020
   * offset: 0x20
   * reset value: 0xFFFFFFFF
+  * size: 0x20
   * access: read-only
   */
-  struct Flash_WRPR_t {
+  const struct Flash_WRPR_t {
     uint32_t WRP : 32;  ///< Write protect, reset value: 0xFFFFFFFF
   } WRPR;
 
@@ -13152,6 +13790,7 @@ typedef struct{
   * address: 0x40023000
   * offset: 0x0
   * reset value: 0xFFFFFFFF
+  * size: 0x20
   * access: read-write
   */
   struct CRC_DR_t {
@@ -13164,6 +13803,7 @@ typedef struct{
   * address: 0x40023004
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CRC_IDR_t {
@@ -13176,6 +13816,7 @@ typedef struct{
   * address: 0x40023008
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct CRC_CR_t {
@@ -13192,6 +13833,7 @@ typedef struct{
   * address: 0x40023010
   * offset: 0x10
   * reset value: 0xFFFFFFFF
+  * size: 0x20
   * access: read-write
   */
   struct CRC_INIT_t {
@@ -13204,6 +13846,7 @@ typedef struct{
   * address: 0x40023014
   * offset: 0x14
   * reset value: 0x04C11DB7
+  * size: 0x20
   * access: read-write
   */
   struct CRC_POL_t {
@@ -13226,6 +13869,7 @@ typedef struct{
   * address: 0x40024000
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TSC_CR_t {
@@ -13250,6 +13894,7 @@ typedef struct{
   * address: 0x40024004
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TSC_IER_t {
@@ -13263,6 +13908,7 @@ typedef struct{
   * address: 0x40024008
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TSC_ICR_t {
@@ -13276,6 +13922,7 @@ typedef struct{
   * address: 0x4002400C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TSC_ISR_t {
@@ -13289,6 +13936,7 @@ typedef struct{
   * address: 0x40024010
   * offset: 0x10
   * reset value: 0xFFFFFFFF
+  * size: 0x20
   * access: read-write
   */
   struct TSC_IOHCR_t {
@@ -13332,6 +13980,7 @@ typedef struct{
   * address: 0x40024018
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TSC_IOASCR_t {
@@ -13375,6 +14024,7 @@ typedef struct{
   * address: 0x40024020
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TSC_IOSCR_t {
@@ -13418,6 +14068,7 @@ typedef struct{
   * address: 0x40024028
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct TSC_IOCCR_t {
@@ -13461,6 +14112,7 @@ typedef struct{
   * address: 0x40024030
   * offset: 0x30
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct TSC_IOGCSR_t {
@@ -13489,9 +14141,10 @@ typedef struct{
   * address: 0x40024034
   * offset: 0x34
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct TSC_IOG1CR_t {
+  const struct TSC_IOG1CR_t {
     uint32_t CNT : 14;  ///< Counter value, reset value: 0x0
   } IOG1CR;
 
@@ -13501,9 +14154,10 @@ typedef struct{
   * address: 0x40024038
   * offset: 0x38
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct TSC_IOG2CR_t {
+  const struct TSC_IOG2CR_t {
     uint32_t CNT : 14;  ///< Counter value, reset value: 0x0
   } IOG2CR;
 
@@ -13513,9 +14167,10 @@ typedef struct{
   * address: 0x4002403C
   * offset: 0x3C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct TSC_IOG3CR_t {
+  const struct TSC_IOG3CR_t {
     uint32_t CNT : 14;  ///< Counter value, reset value: 0x0
   } IOG3CR;
 
@@ -13525,9 +14180,10 @@ typedef struct{
   * address: 0x40024040
   * offset: 0x40
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct TSC_IOG4CR_t {
+  const struct TSC_IOG4CR_t {
     uint32_t CNT : 14;  ///< Counter value, reset value: 0x0
   } IOG4CR;
 
@@ -13537,9 +14193,10 @@ typedef struct{
   * address: 0x40024044
   * offset: 0x44
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct TSC_IOG5CR_t {
+  const struct TSC_IOG5CR_t {
     uint32_t CNT : 14;  ///< Counter value, reset value: 0x0
   } IOG5CR;
 
@@ -13549,9 +14206,10 @@ typedef struct{
   * address: 0x40024048
   * offset: 0x48
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct TSC_IOG6CR_t {
+  const struct TSC_IOG6CR_t {
     uint32_t CNT : 14;  ///< Counter value, reset value: 0x0
   } IOG6CR;
 
@@ -13561,9 +14219,10 @@ typedef struct{
   * address: 0x4002404C
   * offset: 0x4C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct TSC_IOG7CR_t {
+  const struct TSC_IOG7CR_t {
     uint32_t CNT : 14;  ///< Counter value, reset value: 0x0
   } IOG7CR;
 
@@ -13573,9 +14232,10 @@ typedef struct{
   * address: 0x40024050
   * offset: 0x50
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct TSC_IOG8CR_t {
+  const struct TSC_IOG8CR_t {
     uint32_t CNT : 14;  ///< Counter value, reset value: 0x0
   } IOG8CR;
 
@@ -13595,6 +14255,7 @@ typedef struct{
   * address: 0x48000000
   * offset: 0x0
   * reset value: 0x28000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOA_MODER_t {
@@ -13622,6 +14283,7 @@ typedef struct{
   * address: 0x48000004
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOA_OTYPER_t {
@@ -13649,6 +14311,7 @@ typedef struct{
   * address: 0x48000008
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOA_OSPEEDR_t {
@@ -13676,6 +14339,7 @@ typedef struct{
   * address: 0x4800000C
   * offset: 0xC
   * reset value: 0x24000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOA_PUPDR_t {
@@ -13703,9 +14367,10 @@ typedef struct{
   * address: 0x48000010
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct GPIOA_IDR_t {
+  const struct GPIOA_IDR_t {
     uint32_t IDR0 : 1;  ///< Port input data (y = 0..15), reset value: 0x0
     uint32_t IDR1 : 1;  ///< Port input data (y = 0..15), reset value: 0x0
     uint32_t IDR2 : 1;  ///< Port input data (y = 0..15), reset value: 0x0
@@ -13730,6 +14395,7 @@ typedef struct{
   * address: 0x48000014
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOA_ODR_t {
@@ -13757,6 +14423,7 @@ typedef struct{
   * address: 0x48000018
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct GPIOA_BSRR_t {
@@ -13800,6 +14467,7 @@ typedef struct{
   * address: 0x4800001C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOA_LCKR_t {
@@ -13828,6 +14496,7 @@ typedef struct{
   * address: 0x48000020
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOA_AFRL_t {
@@ -13847,6 +14516,7 @@ typedef struct{
   * address: 0x48000024
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOA_AFRH_t {
@@ -13866,6 +14536,7 @@ typedef struct{
   * address: 0x48000028
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct GPIOA_BRR_t {
@@ -13903,6 +14574,7 @@ typedef struct{
   * address: 0x48000400
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOB_MODER_t {
@@ -13930,6 +14602,7 @@ typedef struct{
   * address: 0x48000404
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOB_OTYPER_t {
@@ -13957,6 +14630,7 @@ typedef struct{
   * address: 0x48000408
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOB_OSPEEDR_t {
@@ -13984,6 +14658,7 @@ typedef struct{
   * address: 0x4800040C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOB_PUPDR_t {
@@ -14011,9 +14686,10 @@ typedef struct{
   * address: 0x48000410
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct GPIOB_IDR_t {
+  const struct GPIOB_IDR_t {
     uint32_t IDR0 : 1;  ///< Port input data (y = 0..15), reset value: 0x0
     uint32_t IDR1 : 1;  ///< Port input data (y = 0..15), reset value: 0x0
     uint32_t IDR2 : 1;  ///< Port input data (y = 0..15), reset value: 0x0
@@ -14038,6 +14714,7 @@ typedef struct{
   * address: 0x48000414
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOB_ODR_t {
@@ -14065,6 +14742,7 @@ typedef struct{
   * address: 0x48000418
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct GPIOB_BSRR_t {
@@ -14108,6 +14786,7 @@ typedef struct{
   * address: 0x4800041C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOB_LCKR_t {
@@ -14136,6 +14815,7 @@ typedef struct{
   * address: 0x48000420
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOB_AFRL_t {
@@ -14155,6 +14835,7 @@ typedef struct{
   * address: 0x48000424
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOB_AFRH_t {
@@ -14174,6 +14855,7 @@ typedef struct{
   * address: 0x48000428
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct GPIOB_BRR_t {
@@ -14211,6 +14893,7 @@ typedef struct{
   * address: 0x48000800
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOC_MODER_t {
@@ -14238,6 +14921,7 @@ typedef struct{
   * address: 0x48000804
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOC_OTYPER_t {
@@ -14265,6 +14949,7 @@ typedef struct{
   * address: 0x48000808
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOC_OSPEEDR_t {
@@ -14292,6 +14977,7 @@ typedef struct{
   * address: 0x4800080C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOC_PUPDR_t {
@@ -14319,9 +15005,10 @@ typedef struct{
   * address: 0x48000810
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct GPIOC_IDR_t {
+  const struct GPIOC_IDR_t {
     uint32_t IDR0 : 1;  ///< Port input data (y = 0..15), reset value: 0x0
     uint32_t IDR1 : 1;  ///< Port input data (y = 0..15), reset value: 0x0
     uint32_t IDR2 : 1;  ///< Port input data (y = 0..15), reset value: 0x0
@@ -14346,6 +15033,7 @@ typedef struct{
   * address: 0x48000814
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOC_ODR_t {
@@ -14373,6 +15061,7 @@ typedef struct{
   * address: 0x48000818
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct GPIOC_BSRR_t {
@@ -14416,6 +15105,7 @@ typedef struct{
   * address: 0x4800081C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOC_LCKR_t {
@@ -14444,6 +15134,7 @@ typedef struct{
   * address: 0x48000820
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOC_AFRL_t {
@@ -14463,6 +15154,7 @@ typedef struct{
   * address: 0x48000824
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOC_AFRH_t {
@@ -14482,6 +15174,7 @@ typedef struct{
   * address: 0x48000828
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct GPIOC_BRR_t {
@@ -14519,6 +15212,7 @@ typedef struct{
   * address: 0x48000C00
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOD_MODER_t {
@@ -14546,6 +15240,7 @@ typedef struct{
   * address: 0x48000C04
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOD_OTYPER_t {
@@ -14573,6 +15268,7 @@ typedef struct{
   * address: 0x48000C08
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOD_OSPEEDR_t {
@@ -14600,6 +15296,7 @@ typedef struct{
   * address: 0x48000C0C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOD_PUPDR_t {
@@ -14627,9 +15324,10 @@ typedef struct{
   * address: 0x48000C10
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct GPIOD_IDR_t {
+  const struct GPIOD_IDR_t {
     uint32_t IDR0 : 1;  ///< Port input data (y = 0..15), reset value: 0x0
     uint32_t IDR1 : 1;  ///< Port input data (y = 0..15), reset value: 0x0
     uint32_t IDR2 : 1;  ///< Port input data (y = 0..15), reset value: 0x0
@@ -14654,6 +15352,7 @@ typedef struct{
   * address: 0x48000C14
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOD_ODR_t {
@@ -14681,6 +15380,7 @@ typedef struct{
   * address: 0x48000C18
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct GPIOD_BSRR_t {
@@ -14724,6 +15424,7 @@ typedef struct{
   * address: 0x48000C1C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOD_LCKR_t {
@@ -14752,6 +15453,7 @@ typedef struct{
   * address: 0x48000C20
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOD_AFRL_t {
@@ -14771,6 +15473,7 @@ typedef struct{
   * address: 0x48000C24
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOD_AFRH_t {
@@ -14790,6 +15493,7 @@ typedef struct{
   * address: 0x48000C28
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct GPIOD_BRR_t {
@@ -14827,6 +15531,7 @@ typedef struct{
   * address: 0x48001000
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOE_MODER_t {
@@ -14854,6 +15559,7 @@ typedef struct{
   * address: 0x48001004
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOE_OTYPER_t {
@@ -14881,6 +15587,7 @@ typedef struct{
   * address: 0x48001008
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOE_OSPEEDR_t {
@@ -14908,6 +15615,7 @@ typedef struct{
   * address: 0x4800100C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOE_PUPDR_t {
@@ -14935,9 +15643,10 @@ typedef struct{
   * address: 0x48001010
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct GPIOE_IDR_t {
+  const struct GPIOE_IDR_t {
     uint32_t IDR0 : 1;  ///< Port input data (y = 0..15), reset value: 0x0
     uint32_t IDR1 : 1;  ///< Port input data (y = 0..15), reset value: 0x0
     uint32_t IDR2 : 1;  ///< Port input data (y = 0..15), reset value: 0x0
@@ -14962,6 +15671,7 @@ typedef struct{
   * address: 0x48001014
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOE_ODR_t {
@@ -14989,6 +15699,7 @@ typedef struct{
   * address: 0x48001018
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct GPIOE_BSRR_t {
@@ -15032,6 +15743,7 @@ typedef struct{
   * address: 0x4800101C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOE_LCKR_t {
@@ -15060,6 +15772,7 @@ typedef struct{
   * address: 0x48001020
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOE_AFRL_t {
@@ -15079,6 +15792,7 @@ typedef struct{
   * address: 0x48001024
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOE_AFRH_t {
@@ -15098,6 +15812,7 @@ typedef struct{
   * address: 0x48001028
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct GPIOE_BRR_t {
@@ -15135,6 +15850,7 @@ typedef struct{
   * address: 0x48001400
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOF_MODER_t {
@@ -15162,6 +15878,7 @@ typedef struct{
   * address: 0x48001404
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOF_OTYPER_t {
@@ -15189,6 +15906,7 @@ typedef struct{
   * address: 0x48001408
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOF_OSPEEDR_t {
@@ -15216,6 +15934,7 @@ typedef struct{
   * address: 0x4800140C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOF_PUPDR_t {
@@ -15243,9 +15962,10 @@ typedef struct{
   * address: 0x48001410
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct GPIOF_IDR_t {
+  const struct GPIOF_IDR_t {
     uint32_t IDR0 : 1;  ///< Port input data (y = 0..15), reset value: 0x0
     uint32_t IDR1 : 1;  ///< Port input data (y = 0..15), reset value: 0x0
     uint32_t IDR2 : 1;  ///< Port input data (y = 0..15), reset value: 0x0
@@ -15270,6 +15990,7 @@ typedef struct{
   * address: 0x48001414
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOF_ODR_t {
@@ -15297,6 +16018,7 @@ typedef struct{
   * address: 0x48001418
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct GPIOF_BSRR_t {
@@ -15340,6 +16062,7 @@ typedef struct{
   * address: 0x4800141C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOF_LCKR_t {
@@ -15368,6 +16091,7 @@ typedef struct{
   * address: 0x48001420
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOF_AFRL_t {
@@ -15387,6 +16111,7 @@ typedef struct{
   * address: 0x48001424
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOF_AFRH_t {
@@ -15406,6 +16131,7 @@ typedef struct{
   * address: 0x48001428
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct GPIOF_BRR_t {
@@ -15443,6 +16169,7 @@ typedef struct{
   * address: 0x48001800
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOG_MODER_t {
@@ -15470,6 +16197,7 @@ typedef struct{
   * address: 0x48001804
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOG_OTYPER_t {
@@ -15497,6 +16225,7 @@ typedef struct{
   * address: 0x48001808
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOG_OSPEEDR_t {
@@ -15524,6 +16253,7 @@ typedef struct{
   * address: 0x4800180C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOG_PUPDR_t {
@@ -15551,9 +16281,10 @@ typedef struct{
   * address: 0x48001810
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct GPIOG_IDR_t {
+  const struct GPIOG_IDR_t {
     uint32_t IDR0 : 1;  ///< Port input data (y = 0..15), reset value: 0x0
     uint32_t IDR1 : 1;  ///< Port input data (y = 0..15), reset value: 0x0
     uint32_t IDR2 : 1;  ///< Port input data (y = 0..15), reset value: 0x0
@@ -15578,6 +16309,7 @@ typedef struct{
   * address: 0x48001814
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOG_ODR_t {
@@ -15605,6 +16337,7 @@ typedef struct{
   * address: 0x48001818
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct GPIOG_BSRR_t {
@@ -15648,6 +16381,7 @@ typedef struct{
   * address: 0x4800181C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOG_LCKR_t {
@@ -15676,6 +16410,7 @@ typedef struct{
   * address: 0x48001820
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOG_AFRL_t {
@@ -15695,6 +16430,7 @@ typedef struct{
   * address: 0x48001824
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOG_AFRH_t {
@@ -15714,6 +16450,7 @@ typedef struct{
   * address: 0x48001828
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct GPIOG_BRR_t {
@@ -15751,6 +16488,7 @@ typedef struct{
   * address: 0x48001C00
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOH_MODER_t {
@@ -15778,6 +16516,7 @@ typedef struct{
   * address: 0x48001C04
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOH_OTYPER_t {
@@ -15805,6 +16544,7 @@ typedef struct{
   * address: 0x48001C08
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOH_OSPEEDR_t {
@@ -15832,6 +16572,7 @@ typedef struct{
   * address: 0x48001C0C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOH_PUPDR_t {
@@ -15859,9 +16600,10 @@ typedef struct{
   * address: 0x48001C10
   * offset: 0x10
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct GPIOH_IDR_t {
+  const struct GPIOH_IDR_t {
     uint32_t IDR0 : 1;  ///< Port input data (y = 0..15), reset value: 0x0
     uint32_t IDR1 : 1;  ///< Port input data (y = 0..15), reset value: 0x0
     uint32_t IDR2 : 1;  ///< Port input data (y = 0..15), reset value: 0x0
@@ -15886,6 +16628,7 @@ typedef struct{
   * address: 0x48001C14
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOH_ODR_t {
@@ -15913,6 +16656,7 @@ typedef struct{
   * address: 0x48001C18
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct GPIOH_BSRR_t {
@@ -15956,6 +16700,7 @@ typedef struct{
   * address: 0x48001C1C
   * offset: 0x1C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOH_LCKR_t {
@@ -15984,6 +16729,7 @@ typedef struct{
   * address: 0x48001C20
   * offset: 0x20
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOH_AFRL_t {
@@ -16003,6 +16749,7 @@ typedef struct{
   * address: 0x48001C24
   * offset: 0x24
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct GPIOH_AFRH_t {
@@ -16022,6 +16769,7 @@ typedef struct{
   * address: 0x48001C28
   * offset: 0x28
   * reset value: 0x00000000
+  * size: 0x20
   * access: write-only
   */
   struct GPIOH_BRR_t {
@@ -16059,6 +16807,7 @@ typedef struct{
   * address: 0x50000000
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC1_ISR_t {
@@ -16081,6 +16830,7 @@ typedef struct{
   * address: 0x50000004
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC1_IER_t {
@@ -16103,6 +16853,7 @@ typedef struct{
   * address: 0x50000008
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC1_CR_t {
@@ -16125,6 +16876,7 @@ typedef struct{
   * address: 0x5000000C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC1_CFGR_t {
@@ -16156,6 +16908,7 @@ typedef struct{
   * address: 0x50000014
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC1_SMPR1_t {
@@ -16177,6 +16930,7 @@ typedef struct{
   * address: 0x50000018
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC1_SMPR2_t {
@@ -16197,6 +16951,7 @@ typedef struct{
   * address: 0x50000020
   * offset: 0x20
   * reset value: 0x0FFF0000
+  * size: 0x20
   * access: read-write
   */
   struct ADC1_TR1_t {
@@ -16211,6 +16966,7 @@ typedef struct{
   * address: 0x50000024
   * offset: 0x24
   * reset value: 0x0FFF0000
+  * size: 0x20
   * access: read-write
   */
   struct ADC1_TR2_t {
@@ -16225,6 +16981,7 @@ typedef struct{
   * address: 0x50000028
   * offset: 0x28
   * reset value: 0x0FFF0000
+  * size: 0x20
   * access: read-write
   */
   struct ADC1_TR3_t {
@@ -16239,6 +16996,7 @@ typedef struct{
   * address: 0x50000030
   * offset: 0x30
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC1_SQR1_t {
@@ -16259,6 +17017,7 @@ typedef struct{
   * address: 0x50000034
   * offset: 0x34
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC1_SQR2_t {
@@ -16279,6 +17038,7 @@ typedef struct{
   * address: 0x50000038
   * offset: 0x38
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC1_SQR3_t {
@@ -16299,6 +17059,7 @@ typedef struct{
   * address: 0x5000003C
   * offset: 0x3C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC1_SQR4_t {
@@ -16313,9 +17074,10 @@ typedef struct{
   * address: 0x50000040
   * offset: 0x40
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct ADC1_DR_t {
+  const struct ADC1_DR_t {
     uint32_t regularDATA : 16;  ///< regularDATA, reset value: 0x0
   } DR;
 
@@ -16325,6 +17087,7 @@ typedef struct{
   * address: 0x5000004C
   * offset: 0x4C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC1_JSQR_t {
@@ -16346,6 +17109,7 @@ typedef struct{
   * address: 0x50000060
   * offset: 0x60
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC1_OFR1_t {
@@ -16361,6 +17125,7 @@ typedef struct{
   * address: 0x50000064
   * offset: 0x64
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC1_OFR2_t {
@@ -16376,6 +17141,7 @@ typedef struct{
   * address: 0x50000068
   * offset: 0x68
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC1_OFR3_t {
@@ -16391,6 +17157,7 @@ typedef struct{
   * address: 0x5000006C
   * offset: 0x6C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC1_OFR4_t {
@@ -16406,9 +17173,10 @@ typedef struct{
   * address: 0x50000080
   * offset: 0x80
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct ADC1_JDR1_t {
+  const struct ADC1_JDR1_t {
     uint32_t JDATA1 : 16;  ///< JDATA1, reset value: 0x0
   } JDR1;
 
@@ -16418,9 +17186,10 @@ typedef struct{
   * address: 0x50000084
   * offset: 0x84
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct ADC1_JDR2_t {
+  const struct ADC1_JDR2_t {
     uint32_t JDATA2 : 16;  ///< JDATA2, reset value: 0x0
   } JDR2;
 
@@ -16430,9 +17199,10 @@ typedef struct{
   * address: 0x50000088
   * offset: 0x88
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct ADC1_JDR3_t {
+  const struct ADC1_JDR3_t {
     uint32_t JDATA3 : 16;  ///< JDATA3, reset value: 0x0
   } JDR3;
 
@@ -16442,9 +17212,10 @@ typedef struct{
   * address: 0x5000008C
   * offset: 0x8C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct ADC1_JDR4_t {
+  const struct ADC1_JDR4_t {
     uint32_t JDATA4 : 16;  ///< JDATA4, reset value: 0x0
   } JDR4;
 
@@ -16454,6 +17225,7 @@ typedef struct{
   * address: 0x500000A0
   * offset: 0xA0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC1_AWD2CR_t {
@@ -16467,6 +17239,7 @@ typedef struct{
   * address: 0x500000A4
   * offset: 0xA4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC1_AWD3CR_t {
@@ -16480,6 +17253,7 @@ typedef struct{
   * address: 0x500000B0
   * offset: 0xB0
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct ADC1_DIFSEL_t {
@@ -16494,6 +17268,7 @@ typedef struct{
   * address: 0x500000B4
   * offset: 0xB4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC1_CALFACT_t {
@@ -16518,6 +17293,7 @@ typedef struct{
   * address: 0x50000100
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC2_ISR_t {
@@ -16540,6 +17316,7 @@ typedef struct{
   * address: 0x50000104
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC2_IER_t {
@@ -16562,6 +17339,7 @@ typedef struct{
   * address: 0x50000108
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC2_CR_t {
@@ -16584,6 +17362,7 @@ typedef struct{
   * address: 0x5000010C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC2_CFGR_t {
@@ -16615,6 +17394,7 @@ typedef struct{
   * address: 0x50000114
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC2_SMPR1_t {
@@ -16636,6 +17416,7 @@ typedef struct{
   * address: 0x50000118
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC2_SMPR2_t {
@@ -16656,6 +17437,7 @@ typedef struct{
   * address: 0x50000120
   * offset: 0x20
   * reset value: 0x0FFF0000
+  * size: 0x20
   * access: read-write
   */
   struct ADC2_TR1_t {
@@ -16670,6 +17452,7 @@ typedef struct{
   * address: 0x50000124
   * offset: 0x24
   * reset value: 0x0FFF0000
+  * size: 0x20
   * access: read-write
   */
   struct ADC2_TR2_t {
@@ -16684,6 +17467,7 @@ typedef struct{
   * address: 0x50000128
   * offset: 0x28
   * reset value: 0x0FFF0000
+  * size: 0x20
   * access: read-write
   */
   struct ADC2_TR3_t {
@@ -16698,6 +17482,7 @@ typedef struct{
   * address: 0x50000130
   * offset: 0x30
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC2_SQR1_t {
@@ -16718,6 +17503,7 @@ typedef struct{
   * address: 0x50000134
   * offset: 0x34
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC2_SQR2_t {
@@ -16738,6 +17524,7 @@ typedef struct{
   * address: 0x50000138
   * offset: 0x38
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC2_SQR3_t {
@@ -16758,6 +17545,7 @@ typedef struct{
   * address: 0x5000013C
   * offset: 0x3C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC2_SQR4_t {
@@ -16772,9 +17560,10 @@ typedef struct{
   * address: 0x50000140
   * offset: 0x40
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct ADC2_DR_t {
+  const struct ADC2_DR_t {
     uint32_t regularDATA : 16;  ///< regularDATA, reset value: 0x0
   } DR;
 
@@ -16784,6 +17573,7 @@ typedef struct{
   * address: 0x5000014C
   * offset: 0x4C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC2_JSQR_t {
@@ -16805,6 +17595,7 @@ typedef struct{
   * address: 0x50000160
   * offset: 0x60
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC2_OFR1_t {
@@ -16820,6 +17611,7 @@ typedef struct{
   * address: 0x50000164
   * offset: 0x64
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC2_OFR2_t {
@@ -16835,6 +17627,7 @@ typedef struct{
   * address: 0x50000168
   * offset: 0x68
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC2_OFR3_t {
@@ -16850,6 +17643,7 @@ typedef struct{
   * address: 0x5000016C
   * offset: 0x6C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC2_OFR4_t {
@@ -16865,9 +17659,10 @@ typedef struct{
   * address: 0x50000180
   * offset: 0x80
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct ADC2_JDR1_t {
+  const struct ADC2_JDR1_t {
     uint32_t JDATA1 : 16;  ///< JDATA1, reset value: 0x0
   } JDR1;
 
@@ -16877,9 +17672,10 @@ typedef struct{
   * address: 0x50000184
   * offset: 0x84
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct ADC2_JDR2_t {
+  const struct ADC2_JDR2_t {
     uint32_t JDATA2 : 16;  ///< JDATA2, reset value: 0x0
   } JDR2;
 
@@ -16889,9 +17685,10 @@ typedef struct{
   * address: 0x50000188
   * offset: 0x88
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct ADC2_JDR3_t {
+  const struct ADC2_JDR3_t {
     uint32_t JDATA3 : 16;  ///< JDATA3, reset value: 0x0
   } JDR3;
 
@@ -16901,9 +17698,10 @@ typedef struct{
   * address: 0x5000018C
   * offset: 0x8C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct ADC2_JDR4_t {
+  const struct ADC2_JDR4_t {
     uint32_t JDATA4 : 16;  ///< JDATA4, reset value: 0x0
   } JDR4;
 
@@ -16913,6 +17711,7 @@ typedef struct{
   * address: 0x500001A0
   * offset: 0xA0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC2_AWD2CR_t {
@@ -16926,6 +17725,7 @@ typedef struct{
   * address: 0x500001A4
   * offset: 0xA4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC2_AWD3CR_t {
@@ -16939,6 +17739,7 @@ typedef struct{
   * address: 0x500001B0
   * offset: 0xB0
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct ADC2_DIFSEL_t {
@@ -16953,6 +17754,7 @@ typedef struct{
   * address: 0x500001B4
   * offset: 0xB4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC2_CALFACT_t {
@@ -16977,9 +17779,10 @@ typedef struct{
   * address: 0x50000300
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct ADC1_2_CSR_t {
+  const struct ADC1_2_CSR_t {
     uint32_t ADDRDY_MST : 1;  ///< ADDRDY_MST, reset value: 0x0
     uint32_t EOSMP_MST : 1;  ///< EOSMP_MST, reset value: 0x0
     uint32_t EOC_MST : 1;  ///< EOC_MST, reset value: 0x0
@@ -17011,6 +17814,7 @@ typedef struct{
   * address: 0x50000308
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC1_2_CCR_t {
@@ -17033,9 +17837,10 @@ typedef struct{
   * address: 0x5000030C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct ADC1_2_CDR_t {
+  const struct ADC1_2_CDR_t {
     uint32_t RDATA_MST : 16;  ///< Regular data of the master ADC, reset value: 0x0
     uint32_t RDATA_SLV : 16;  ///< Regular data of the slave ADC, reset value: 0x0
   } CDR;
@@ -17056,6 +17861,7 @@ typedef struct{
   * address: 0x50000400
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC3_ISR_t {
@@ -17078,6 +17884,7 @@ typedef struct{
   * address: 0x50000404
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC3_IER_t {
@@ -17100,6 +17907,7 @@ typedef struct{
   * address: 0x50000408
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC3_CR_t {
@@ -17122,6 +17930,7 @@ typedef struct{
   * address: 0x5000040C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC3_CFGR_t {
@@ -17153,6 +17962,7 @@ typedef struct{
   * address: 0x50000414
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC3_SMPR1_t {
@@ -17174,6 +17984,7 @@ typedef struct{
   * address: 0x50000418
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC3_SMPR2_t {
@@ -17194,6 +18005,7 @@ typedef struct{
   * address: 0x50000420
   * offset: 0x20
   * reset value: 0x0FFF0000
+  * size: 0x20
   * access: read-write
   */
   struct ADC3_TR1_t {
@@ -17208,6 +18020,7 @@ typedef struct{
   * address: 0x50000424
   * offset: 0x24
   * reset value: 0x0FFF0000
+  * size: 0x20
   * access: read-write
   */
   struct ADC3_TR2_t {
@@ -17222,6 +18035,7 @@ typedef struct{
   * address: 0x50000428
   * offset: 0x28
   * reset value: 0x0FFF0000
+  * size: 0x20
   * access: read-write
   */
   struct ADC3_TR3_t {
@@ -17236,6 +18050,7 @@ typedef struct{
   * address: 0x50000430
   * offset: 0x30
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC3_SQR1_t {
@@ -17256,6 +18071,7 @@ typedef struct{
   * address: 0x50000434
   * offset: 0x34
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC3_SQR2_t {
@@ -17276,6 +18092,7 @@ typedef struct{
   * address: 0x50000438
   * offset: 0x38
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC3_SQR3_t {
@@ -17296,6 +18113,7 @@ typedef struct{
   * address: 0x5000043C
   * offset: 0x3C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC3_SQR4_t {
@@ -17310,9 +18128,10 @@ typedef struct{
   * address: 0x50000440
   * offset: 0x40
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct ADC3_DR_t {
+  const struct ADC3_DR_t {
     uint32_t regularDATA : 16;  ///< regularDATA, reset value: 0x0
   } DR;
 
@@ -17322,6 +18141,7 @@ typedef struct{
   * address: 0x5000044C
   * offset: 0x4C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC3_JSQR_t {
@@ -17343,6 +18163,7 @@ typedef struct{
   * address: 0x50000460
   * offset: 0x60
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC3_OFR1_t {
@@ -17358,6 +18179,7 @@ typedef struct{
   * address: 0x50000464
   * offset: 0x64
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC3_OFR2_t {
@@ -17373,6 +18195,7 @@ typedef struct{
   * address: 0x50000468
   * offset: 0x68
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC3_OFR3_t {
@@ -17388,6 +18211,7 @@ typedef struct{
   * address: 0x5000046C
   * offset: 0x6C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC3_OFR4_t {
@@ -17403,9 +18227,10 @@ typedef struct{
   * address: 0x50000480
   * offset: 0x80
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct ADC3_JDR1_t {
+  const struct ADC3_JDR1_t {
     uint32_t JDATA1 : 16;  ///< JDATA1, reset value: 0x0
   } JDR1;
 
@@ -17415,9 +18240,10 @@ typedef struct{
   * address: 0x50000484
   * offset: 0x84
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct ADC3_JDR2_t {
+  const struct ADC3_JDR2_t {
     uint32_t JDATA2 : 16;  ///< JDATA2, reset value: 0x0
   } JDR2;
 
@@ -17427,9 +18253,10 @@ typedef struct{
   * address: 0x50000488
   * offset: 0x88
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct ADC3_JDR3_t {
+  const struct ADC3_JDR3_t {
     uint32_t JDATA3 : 16;  ///< JDATA3, reset value: 0x0
   } JDR3;
 
@@ -17439,9 +18266,10 @@ typedef struct{
   * address: 0x5000048C
   * offset: 0x8C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct ADC3_JDR4_t {
+  const struct ADC3_JDR4_t {
     uint32_t JDATA4 : 16;  ///< JDATA4, reset value: 0x0
   } JDR4;
 
@@ -17451,6 +18279,7 @@ typedef struct{
   * address: 0x500004A0
   * offset: 0xA0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC3_AWD2CR_t {
@@ -17464,6 +18293,7 @@ typedef struct{
   * address: 0x500004A4
   * offset: 0xA4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC3_AWD3CR_t {
@@ -17477,6 +18307,7 @@ typedef struct{
   * address: 0x500004B0
   * offset: 0xB0
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct ADC3_DIFSEL_t {
@@ -17491,6 +18322,7 @@ typedef struct{
   * address: 0x500004B4
   * offset: 0xB4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC3_CALFACT_t {
@@ -17515,6 +18347,7 @@ typedef struct{
   * address: 0x50000500
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC4_ISR_t {
@@ -17537,6 +18370,7 @@ typedef struct{
   * address: 0x50000504
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC4_IER_t {
@@ -17559,6 +18393,7 @@ typedef struct{
   * address: 0x50000508
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC4_CR_t {
@@ -17581,6 +18416,7 @@ typedef struct{
   * address: 0x5000050C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC4_CFGR_t {
@@ -17612,6 +18448,7 @@ typedef struct{
   * address: 0x50000514
   * offset: 0x14
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC4_SMPR1_t {
@@ -17633,6 +18470,7 @@ typedef struct{
   * address: 0x50000518
   * offset: 0x18
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC4_SMPR2_t {
@@ -17653,6 +18491,7 @@ typedef struct{
   * address: 0x50000520
   * offset: 0x20
   * reset value: 0x0FFF0000
+  * size: 0x20
   * access: read-write
   */
   struct ADC4_TR1_t {
@@ -17667,6 +18506,7 @@ typedef struct{
   * address: 0x50000524
   * offset: 0x24
   * reset value: 0x0FFF0000
+  * size: 0x20
   * access: read-write
   */
   struct ADC4_TR2_t {
@@ -17681,6 +18521,7 @@ typedef struct{
   * address: 0x50000528
   * offset: 0x28
   * reset value: 0x0FFF0000
+  * size: 0x20
   * access: read-write
   */
   struct ADC4_TR3_t {
@@ -17695,6 +18536,7 @@ typedef struct{
   * address: 0x50000530
   * offset: 0x30
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC4_SQR1_t {
@@ -17715,6 +18557,7 @@ typedef struct{
   * address: 0x50000534
   * offset: 0x34
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC4_SQR2_t {
@@ -17735,6 +18578,7 @@ typedef struct{
   * address: 0x50000538
   * offset: 0x38
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC4_SQR3_t {
@@ -17755,6 +18599,7 @@ typedef struct{
   * address: 0x5000053C
   * offset: 0x3C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC4_SQR4_t {
@@ -17769,9 +18614,10 @@ typedef struct{
   * address: 0x50000540
   * offset: 0x40
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct ADC4_DR_t {
+  const struct ADC4_DR_t {
     uint32_t regularDATA : 16;  ///< regularDATA, reset value: 0x0
   } DR;
 
@@ -17781,6 +18627,7 @@ typedef struct{
   * address: 0x5000054C
   * offset: 0x4C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC4_JSQR_t {
@@ -17802,6 +18649,7 @@ typedef struct{
   * address: 0x50000560
   * offset: 0x60
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC4_OFR1_t {
@@ -17817,6 +18665,7 @@ typedef struct{
   * address: 0x50000564
   * offset: 0x64
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC4_OFR2_t {
@@ -17832,6 +18681,7 @@ typedef struct{
   * address: 0x50000568
   * offset: 0x68
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC4_OFR3_t {
@@ -17847,6 +18697,7 @@ typedef struct{
   * address: 0x5000056C
   * offset: 0x6C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC4_OFR4_t {
@@ -17862,9 +18713,10 @@ typedef struct{
   * address: 0x50000580
   * offset: 0x80
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct ADC4_JDR1_t {
+  const struct ADC4_JDR1_t {
     uint32_t JDATA1 : 16;  ///< JDATA1, reset value: 0x0
   } JDR1;
 
@@ -17874,9 +18726,10 @@ typedef struct{
   * address: 0x50000584
   * offset: 0x84
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct ADC4_JDR2_t {
+  const struct ADC4_JDR2_t {
     uint32_t JDATA2 : 16;  ///< JDATA2, reset value: 0x0
   } JDR2;
 
@@ -17886,9 +18739,10 @@ typedef struct{
   * address: 0x50000588
   * offset: 0x88
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct ADC4_JDR3_t {
+  const struct ADC4_JDR3_t {
     uint32_t JDATA3 : 16;  ///< JDATA3, reset value: 0x0
   } JDR3;
 
@@ -17898,9 +18752,10 @@ typedef struct{
   * address: 0x5000058C
   * offset: 0x8C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct ADC4_JDR4_t {
+  const struct ADC4_JDR4_t {
     uint32_t JDATA4 : 16;  ///< JDATA4, reset value: 0x0
   } JDR4;
 
@@ -17910,6 +18765,7 @@ typedef struct{
   * address: 0x500005A0
   * offset: 0xA0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC4_AWD2CR_t {
@@ -17923,6 +18779,7 @@ typedef struct{
   * address: 0x500005A4
   * offset: 0xA4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC4_AWD3CR_t {
@@ -17936,6 +18793,7 @@ typedef struct{
   * address: 0x500005B0
   * offset: 0xB0
   * reset value: 0x00000000
+  * size: 0x20
   * access: 
   */
   struct ADC4_DIFSEL_t {
@@ -17950,6 +18808,7 @@ typedef struct{
   * address: 0x500005B4
   * offset: 0xB4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC4_CALFACT_t {
@@ -17974,9 +18833,10 @@ typedef struct{
   * address: 0x50000700
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct ADC3_4_CSR_t {
+  const struct ADC3_4_CSR_t {
     uint32_t ADDRDY_MST : 1;  ///< ADDRDY_MST, reset value: 0x0
     uint32_t EOSMP_MST : 1;  ///< EOSMP_MST, reset value: 0x0
     uint32_t EOC_MST : 1;  ///< EOC_MST, reset value: 0x0
@@ -18008,6 +18868,7 @@ typedef struct{
   * address: 0x50000708
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct ADC3_4_CCR_t {
@@ -18030,9 +18891,10 @@ typedef struct{
   * address: 0x5000070C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct ADC3_4_CDR_t {
+  const struct ADC3_4_CDR_t {
     uint32_t RDATA_MST : 16;  ///< Regular data of the master ADC, reset value: 0x0
     uint32_t RDATA_SLV : 16;  ///< Regular data of the slave ADC, reset value: 0x0
   } CDR;
@@ -18053,6 +18915,7 @@ typedef struct{
   * address: 0xA0000400
   * offset: 0x0
   * reset value: 0x000030D0
+  * size: 0x20
   * access: read-write
   */
   struct FMC_BCR1_t {
@@ -18081,6 +18944,7 @@ typedef struct{
   * address: 0xA0000404
   * offset: 0x4
   * reset value: 0xFFFFFFFF
+  * size: 0x20
   * access: read-write
   */
   struct FMC_BTR1_t {
@@ -18099,6 +18963,7 @@ typedef struct{
   * address: 0xA0000408
   * offset: 0x8
   * reset value: 0x000030D0
+  * size: 0x20
   * access: read-write
   */
   struct FMC_BCR2_t {
@@ -18126,6 +18991,7 @@ typedef struct{
   * address: 0xA000040C
   * offset: 0xC
   * reset value: 0xFFFFFFFF
+  * size: 0x20
   * access: read-write
   */
   struct FMC_BTR2_t {
@@ -18144,6 +19010,7 @@ typedef struct{
   * address: 0xA0000410
   * offset: 0x10
   * reset value: 0x000030D0
+  * size: 0x20
   * access: read-write
   */
   struct FMC_BCR3_t {
@@ -18171,6 +19038,7 @@ typedef struct{
   * address: 0xA0000414
   * offset: 0x14
   * reset value: 0xFFFFFFFF
+  * size: 0x20
   * access: read-write
   */
   struct FMC_BTR3_t {
@@ -18189,6 +19057,7 @@ typedef struct{
   * address: 0xA0000418
   * offset: 0x18
   * reset value: 0x000030D0
+  * size: 0x20
   * access: read-write
   */
   struct FMC_BCR4_t {
@@ -18216,6 +19085,7 @@ typedef struct{
   * address: 0xA000041C
   * offset: 0x1C
   * reset value: 0xFFFFFFFF
+  * size: 0x20
   * access: read-write
   */
   struct FMC_BTR4_t {
@@ -18229,12 +19099,14 @@ typedef struct{
   } BTR4;
 
   const uint8_t _RESERVED_503[36];
+
   /** 
   * name: PCR2
   * description: PC Card/NAND Flash control register 2
   * address: 0xA0000460
   * offset: 0x60
   * reset value: 0x00000018
+  * size: 0x20
   * access: read-write
   */
   struct FMC_PCR2_t {
@@ -18256,6 +19128,7 @@ typedef struct{
   * address: 0xA0000464
   * offset: 0x64
   * reset value: 0x00000040
+  * size: 0x20
   * access: 
   */
   struct FMC_SR2_t {
@@ -18274,6 +19147,7 @@ typedef struct{
   * address: 0xA0000468
   * offset: 0x68
   * reset value: 0xFCFCFCFC
+  * size: 0x20
   * access: read-write
   */
   struct FMC_PMEM2_t {
@@ -18289,6 +19163,7 @@ typedef struct{
   * address: 0xA000046C
   * offset: 0x6C
   * reset value: 0xFCFCFCFC
+  * size: 0x20
   * access: read-write
   */
   struct FMC_PATT2_t {
@@ -18304,9 +19179,10 @@ typedef struct{
   * address: 0xA0000474
   * offset: 0x74
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct FMC_ECCR2_t {
+  const struct FMC_ECCR2_t {
     uint32_t ECCx : 32;  ///< ECCx, reset value: 0x0
   } ECCR2;
 
@@ -18316,6 +19192,7 @@ typedef struct{
   * address: 0xA0000480
   * offset: 0x80
   * reset value: 0x00000018
+  * size: 0x20
   * access: read-write
   */
   struct FMC_PCR3_t {
@@ -18337,6 +19214,7 @@ typedef struct{
   * address: 0xA0000484
   * offset: 0x84
   * reset value: 0x00000040
+  * size: 0x20
   * access: 
   */
   struct FMC_SR3_t {
@@ -18355,6 +19233,7 @@ typedef struct{
   * address: 0xA0000488
   * offset: 0x88
   * reset value: 0xFCFCFCFC
+  * size: 0x20
   * access: read-write
   */
   struct FMC_PMEM3_t {
@@ -18370,6 +19249,7 @@ typedef struct{
   * address: 0xA000048C
   * offset: 0x8C
   * reset value: 0xFCFCFCFC
+  * size: 0x20
   * access: read-write
   */
   struct FMC_PATT3_t {
@@ -18385,9 +19265,10 @@ typedef struct{
   * address: 0xA0000494
   * offset: 0x94
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct FMC_ECCR3_t {
+  const struct FMC_ECCR3_t {
     uint32_t ECCx : 32;  ///< ECCx, reset value: 0x0
   } ECCR3;
 
@@ -18397,6 +19278,7 @@ typedef struct{
   * address: 0xA00004A0
   * offset: 0xA0
   * reset value: 0x00000018
+  * size: 0x20
   * access: read-write
   */
   struct FMC_PCR4_t {
@@ -18418,6 +19300,7 @@ typedef struct{
   * address: 0xA00004A4
   * offset: 0xA4
   * reset value: 0x00000040
+  * size: 0x20
   * access: 
   */
   struct FMC_SR4_t {
@@ -18436,6 +19319,7 @@ typedef struct{
   * address: 0xA00004A8
   * offset: 0xA8
   * reset value: 0xFCFCFCFC
+  * size: 0x20
   * access: read-write
   */
   struct FMC_PMEM4_t {
@@ -18451,6 +19335,7 @@ typedef struct{
   * address: 0xA00004AC
   * offset: 0xAC
   * reset value: 0xFCFCFCFC
+  * size: 0x20
   * access: read-write
   */
   struct FMC_PATT4_t {
@@ -18466,6 +19351,7 @@ typedef struct{
   * address: 0xA00004B0
   * offset: 0xB0
   * reset value: 0xFCFCFCFC
+  * size: 0x20
   * access: read-write
   */
   struct FMC_PIO4_t {
@@ -18476,12 +19362,14 @@ typedef struct{
   } PIO4;
 
   const uint8_t _RESERVED_510[52];
+
   /** 
   * name: BWTR1
   * description: SRAM/NOR-Flash write timing registers 1
   * address: 0xA0000504
   * offset: 0x104
   * reset value: 0x0FFFFFFF
+  * size: 0x20
   * access: read-write
   */
   struct FMC_BWTR1_t {
@@ -18500,6 +19388,7 @@ typedef struct{
   * address: 0xA000050C
   * offset: 0x10C
   * reset value: 0x0FFFFFFF
+  * size: 0x20
   * access: read-write
   */
   struct FMC_BWTR2_t {
@@ -18518,6 +19407,7 @@ typedef struct{
   * address: 0xA0000514
   * offset: 0x114
   * reset value: 0x0FFFFFFF
+  * size: 0x20
   * access: read-write
   */
   struct FMC_BWTR3_t {
@@ -18536,6 +19426,7 @@ typedef struct{
   * address: 0xA000051C
   * offset: 0x11C
   * reset value: 0x0FFFFFFF
+  * size: 0x20
   * access: read-write
   */
   struct FMC_BWTR4_t {
@@ -18559,25 +19450,29 @@ typedef struct{
 */
 typedef struct{
   const uint8_t _RESERVED_511[4];
+
   /** 
   * name: ICTR
   * description: Interrupt Controller Type Register
   * address: 0xE000E004
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct NVIC_ICTR_t {
+  const struct NVIC_ICTR_t {
     uint32_t INTLINESNUM : 4;  ///< Total number of interrupt lines in groups, reset value: 0x0
   } ICTR;
 
   const uint8_t _RESERVED_512[220];
+
   /** 
   * name: ISER0
   * description: Interrupt Set-Enable Register
   * address: 0xE000E100
   * offset: 0x100
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_ISER0_t {
@@ -18590,6 +19485,7 @@ typedef struct{
   * address: 0xE000E104
   * offset: 0x104
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_ISER1_t {
@@ -18602,6 +19498,7 @@ typedef struct{
   * address: 0xE000E108
   * offset: 0x108
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_ISER2_t {
@@ -18609,12 +19506,14 @@ typedef struct{
   } ISER2;
 
   const uint8_t _RESERVED_513[88];
+
   /** 
   * name: ICER0
   * description: Interrupt Clear-Enable Register
   * address: 0xE000E180
   * offset: 0x180
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_ICER0_t {
@@ -18627,6 +19526,7 @@ typedef struct{
   * address: 0xE000E184
   * offset: 0x184
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_ICER1_t {
@@ -18639,6 +19539,7 @@ typedef struct{
   * address: 0xE000E188
   * offset: 0x188
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_ICER2_t {
@@ -18646,12 +19547,14 @@ typedef struct{
   } ICER2;
 
   const uint8_t _RESERVED_514[88];
+
   /** 
   * name: ISPR0
   * description: Interrupt Set-Pending Register
   * address: 0xE000E200
   * offset: 0x200
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_ISPR0_t {
@@ -18664,6 +19567,7 @@ typedef struct{
   * address: 0xE000E204
   * offset: 0x204
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_ISPR1_t {
@@ -18676,6 +19580,7 @@ typedef struct{
   * address: 0xE000E208
   * offset: 0x208
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_ISPR2_t {
@@ -18683,12 +19588,14 @@ typedef struct{
   } ISPR2;
 
   const uint8_t _RESERVED_515[88];
+
   /** 
   * name: ICPR0
   * description: Interrupt Clear-Pending Register
   * address: 0xE000E280
   * offset: 0x280
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_ICPR0_t {
@@ -18701,6 +19608,7 @@ typedef struct{
   * address: 0xE000E284
   * offset: 0x284
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_ICPR1_t {
@@ -18713,6 +19621,7 @@ typedef struct{
   * address: 0xE000E288
   * offset: 0x288
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_ICPR2_t {
@@ -18720,15 +19629,17 @@ typedef struct{
   } ICPR2;
 
   const uint8_t _RESERVED_516[88];
+
   /** 
   * name: IABR0
   * description: Interrupt Active Bit Register
   * address: 0xE000E300
   * offset: 0x300
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct NVIC_IABR0_t {
+  const struct NVIC_IABR0_t {
     uint32_t ACTIVE : 32;  ///< ACTIVE, reset value: 0x0
   } IABR0;
 
@@ -18738,9 +19649,10 @@ typedef struct{
   * address: 0xE000E304
   * offset: 0x304
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct NVIC_IABR1_t {
+  const struct NVIC_IABR1_t {
     uint32_t ACTIVE : 32;  ///< ACTIVE, reset value: 0x0
   } IABR1;
 
@@ -18750,19 +19662,22 @@ typedef struct{
   * address: 0xE000E308
   * offset: 0x308
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct NVIC_IABR2_t {
+  const struct NVIC_IABR2_t {
     uint32_t ACTIVE : 32;  ///< ACTIVE, reset value: 0x0
   } IABR2;
 
   const uint8_t _RESERVED_517[216];
+
   /** 
   * name: IPR0
   * description: Interrupt Priority Register
   * address: 0xE000E400
   * offset: 0x400
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_IPR0_t {
@@ -18778,6 +19693,7 @@ typedef struct{
   * address: 0xE000E404
   * offset: 0x404
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_IPR1_t {
@@ -18793,6 +19709,7 @@ typedef struct{
   * address: 0xE000E408
   * offset: 0x408
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_IPR2_t {
@@ -18808,6 +19725,7 @@ typedef struct{
   * address: 0xE000E40C
   * offset: 0x40C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_IPR3_t {
@@ -18823,6 +19741,7 @@ typedef struct{
   * address: 0xE000E410
   * offset: 0x410
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_IPR4_t {
@@ -18838,6 +19757,7 @@ typedef struct{
   * address: 0xE000E414
   * offset: 0x414
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_IPR5_t {
@@ -18853,6 +19773,7 @@ typedef struct{
   * address: 0xE000E418
   * offset: 0x418
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_IPR6_t {
@@ -18868,6 +19789,7 @@ typedef struct{
   * address: 0xE000E41C
   * offset: 0x41C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_IPR7_t {
@@ -18883,6 +19805,7 @@ typedef struct{
   * address: 0xE000E420
   * offset: 0x420
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_IPR8_t {
@@ -18898,6 +19821,7 @@ typedef struct{
   * address: 0xE000E424
   * offset: 0x424
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_IPR9_t {
@@ -18913,6 +19837,7 @@ typedef struct{
   * address: 0xE000E428
   * offset: 0x428
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_IPR10_t {
@@ -18928,6 +19853,7 @@ typedef struct{
   * address: 0xE000E42C
   * offset: 0x42C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_IPR11_t {
@@ -18943,6 +19869,7 @@ typedef struct{
   * address: 0xE000E430
   * offset: 0x430
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_IPR12_t {
@@ -18958,6 +19885,7 @@ typedef struct{
   * address: 0xE000E434
   * offset: 0x434
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_IPR13_t {
@@ -18973,6 +19901,7 @@ typedef struct{
   * address: 0xE000E438
   * offset: 0x438
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_IPR14_t {
@@ -18988,6 +19917,7 @@ typedef struct{
   * address: 0xE000E43C
   * offset: 0x43C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_IPR15_t {
@@ -19003,6 +19933,7 @@ typedef struct{
   * address: 0xE000E440
   * offset: 0x440
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_IPR16_t {
@@ -19018,6 +19949,7 @@ typedef struct{
   * address: 0xE000E444
   * offset: 0x444
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_IPR17_t {
@@ -19033,6 +19965,7 @@ typedef struct{
   * address: 0xE000E448
   * offset: 0x448
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_IPR18_t {
@@ -19048,6 +19981,7 @@ typedef struct{
   * address: 0xE000E44C
   * offset: 0x44C
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_IPR19_t {
@@ -19063,6 +19997,7 @@ typedef struct{
   * address: 0xE000E450
   * offset: 0x450
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct NVIC_IPR20_t {
@@ -19088,6 +20023,7 @@ typedef struct{
   * address: 0xE000ED88
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct FPU_CPACR_t {
@@ -19112,12 +20048,14 @@ typedef struct{
   } CPACR;
 
   const uint8_t _RESERVED_526[396];
+
   /** 
   * name: FPCCR
   * description: FP Context Control Register
   * address: 0xE000EF34
   * offset: 0x1AC
   * reset value: 0xC0000000
+  * size: 0x20
   * access: read-write
   */
   struct FPU_FPCCR_t {
@@ -19141,6 +20079,7 @@ typedef struct{
   * address: 0xE000EF38
   * offset: 0x1B0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct FPU_FPCAR_t {
@@ -19154,6 +20093,7 @@ typedef struct{
   * address: 0xE000EF3C
   * offset: 0x1B4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct FPU_FPDSCR_t {
@@ -19170,9 +20110,10 @@ typedef struct{
   * address: 0xE000EF40
   * offset: 0x1B8
   * reset value: 0x10110021
+  * size: 0x20
   * access: read-only
   */
-  struct FPU_MVFR0_t {
+  const struct FPU_MVFR0_t {
     uint32_t A_SIMD : 4;  ///< A_SIMD registers, reset value: 0x1
     uint32_t Single_precision : 4;  ///< Single_precision, reset value: 0x2
     uint32_t Double_precision : 4;  ///< Double_precision, reset value: 0x0
@@ -19189,9 +20130,10 @@ typedef struct{
   * address: 0xE000EF44
   * offset: 0x1BC
   * reset value: 0x11000011
+  * size: 0x20
   * access: read-only
   */
-  struct FPU_MVFR1_t {
+  const struct FPU_MVFR1_t {
     uint32_t FtZ_mode : 4;  ///< FtZ mode, reset value: 0x1
     uint32_t D_NaN_mode : 4;  ///< D_NaN mode, reset value: 0x1
     uint32_t _RESERVED_532 : 16;
@@ -19215,9 +20157,10 @@ typedef struct{
   * address: 0xE0042000
   * offset: 0x0
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-only
   */
-  struct DBGMCU_IDCODE_t {
+  const struct DBGMCU_IDCODE_t {
     uint32_t DEV_ID : 12;  ///< Device Identifier, reset value: 0x0
     uint32_t _RESERVED_533 : 4;
     uint32_t REV_ID : 16;  ///< Revision Identifier, reset value: 0x0
@@ -19229,6 +20172,7 @@ typedef struct{
   * address: 0xE0042004
   * offset: 0x4
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DBGMCU_CR_t {
@@ -19246,6 +20190,7 @@ typedef struct{
   * address: 0xE0042008
   * offset: 0x8
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DBGMCU_APB1FZ_t {
@@ -19275,6 +20220,7 @@ typedef struct{
   * address: 0xE004200C
   * offset: 0xC
   * reset value: 0x00000000
+  * size: 0x20
   * access: read-write
   */
   struct DBGMCU_APB2FZ_t {

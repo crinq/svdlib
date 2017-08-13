@@ -32,6 +32,13 @@ print "#define " + svd_prefix + "CPU " + device["name"] + "\n"
 
 reserved_count = 0
 
+def get_type(s):
+  if s <= 8:
+    return "uint8_t"
+  if s <= 16:
+    return "uint16_t"
+  return "uint32_t"
+
 for p in sorted(device["peripherals"], key = lambda p: p["base"]):
   offset = 0
   print "/** "
@@ -43,7 +50,7 @@ for p in sorted(device["peripherals"], key = lambda p: p["base"]):
   print "typedef struct{"
   for i, r in enumerate(sorted(p["registers"], key = lambda r: r["offset"])):
     if offset < r["offset"]:
-      print "  const uint8_t _RESERVED_" + str(reserved_count) + "[" + str(r["offset"] - offset) + "];"
+      print "  const uint8_t _RESERVED_" + str(reserved_count) + "[" + str(r["offset"] - offset) + "];\n"
       reserved_count += 1
     offset = r["offset"] + r["size"]
     print "  /** " 
@@ -51,18 +58,27 @@ for p in sorted(device["peripherals"], key = lambda p: p["base"]):
     print "  * description: " + r["description"]
     print "  * address: 0x" + format(p["base"] + r["offset"], "08X")
     print "  * offset: 0x" + format(r["offset"], "X")
-    print "  * reset value: 0x" + format(r["reset"], "08X")
+    if r["size"] <= 8:
+      print "  * reset value: 0x" + format(r["reset"], "02X")
+    elif r["size"] <= 16:
+      print "  * reset value: 0x" + format(r["reset"], "04X")
+    else:
+      print "  * reset value: 0x" + format(r["reset"], "08X")
+    print "  * size: 0x" + format(r["size"], "X")
     print "  * access: " + r["access"]
     print "  */"
     #print "  union{"
-    print "  struct " + p["name"] + "_" + r["name"] + "_t {"
+    if r["access"] == "read-only":
+      print "  const struct " + p["name"] + "_" + r["name"] + "_t {"
+    else:
+      print "  struct " + p["name"] + "_" + r["name"] + "_t {"
     bit_offset = 0
     for i, f in enumerate(sorted(r["fields"], key = lambda f: f["start"])):
       if bit_offset < f["start"]:
-        print "    uint32_t _RESERVED_" + str(reserved_count) + " : " + str(f["start"] - bit_offset) + ";"
+        print "    " + get_type(r["size"]) + " _RESERVED_" + str(reserved_count) + " : " + str(f["start"] - bit_offset) + ";"
         reserved_count += 1
       bit_offset = f["start"] + f["size"]
-      print "    uint32_t " + f["name"] + " : " + str(f["size"]) + ";  ///< " + f["description"] + ", reset value: 0x" + format((r["reset"] >> f["start"]) & (pow(2, f["size"]) - 1), "X")
+      print "    " + get_type(r["size"]) + " " + f["name"] + " : " + str(f["size"]) + ";  ///< " + f["description"] + ", reset value: 0x" + format((r["reset"] >> f["start"]) & (pow(2, f["size"]) - 1), "X")
     #print "    };"
     #print "    uint32_t w;"
     print "  } " + r["name"] + ";\n"
