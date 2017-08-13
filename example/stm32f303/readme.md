@@ -1,0 +1,1 @@
+[SVD file](STM32F303.svd) downloaded from [ST](http://www.st.com/content/st_com/en/support/resources/resource-selector.html?querycriteria=productId=LN1531$$resourceCategory=cad_models_and_symbols$$resourceType=svd)
